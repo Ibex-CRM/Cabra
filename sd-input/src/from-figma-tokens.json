@@ -1,5 +1,11 @@
 {
-  "global": {},
+  "global": {
+    "white TEST": {
+      "value": "#fff",
+      "type": "color",
+      "description": "test"
+    }
+  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [

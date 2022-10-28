@@ -4,5 +4,10 @@
       "value": "global",
       "type": "other"
     }
+  },
+  "white TEST": {
+    "value": "#fff",
+    "type": "color",
+    "description": "test"
   }
 }

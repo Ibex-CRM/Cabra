@@ -3,3 +3,4 @@
  */
 
 export const TokenSetOrder0 = "global";
+export const WhiteTest = "#fff";
