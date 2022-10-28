@@ -1,0 +1,50 @@
+{
+  "global": {
+    "Primary-btn": {
+      "value": "#e57227",
+      "type": "color"
+    },
+    "Secondary": {
+      "value": "#4a58aa",
+      "type": "color"
+    },
+    "neutral": {
+      "value": "#989696",
+      "type": "color"
+    },
+    "d": {
+      "value": "#b70c0c",
+      "type": "color"
+    },
+    "l": {
+      "value": "#883d9e",
+      "type": "color"
+    },
+    "a": {
+      "value": "#38f023",
+      "type": "color"
+    },
+    "f": {
+      "value": "#b300ff",
+      "type": "color"
+    },
+    "w": {
+      "value": "#000",
+      "type": "color"
+    },
+    "ww": {
+      "value": "#f2f2f2",
+      "type": "color"
+    },
+    "wwww": {
+      "value": "#c2c2c2",
+      "type": "color"
+    }
+  },
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": [
+      "global"
+    ]
+  }
+}
