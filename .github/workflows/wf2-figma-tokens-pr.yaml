@@ -1,10 +1,9 @@
-name: Process Fgima Tokens
+name: Process Figma Tokens
 
 on:
   pull_request:
-
 jobs:
-  run_if:
+  process-figma-tokens:
     if: ${{ github.head_ref == 'figma-tokens' }}
     name: Process Figma Tokens
     runs-on: ubuntu-latest
