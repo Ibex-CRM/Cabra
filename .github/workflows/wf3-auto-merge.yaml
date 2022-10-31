@@ -1,8 +1,8 @@
-name: Automerge
+name: automerge
 
 on:
   workflow_run:
-    workflows: ['Process Figma Tokens']
+    workflows: ['Process Fgima Tokens']
     types:
       - completed
 
