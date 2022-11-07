@@ -7,15 +7,23 @@
     "padding-m": {
       "value": "25",
       "type": "spacing"
+    },
+    "Red": {
+      "value": "#bf0505",
+      "type": "color"
+    },
+    "blu global": {
+      "value": "#445cac",
+      "type": "color"
     }
   },
   "new": {
-    "red": {
-      "value": "#e70505",
-      "type": "color"
-    },
     "bvn": {
       "value": "#988b8b",
+      "type": "color"
+    },
+    "blue new": {
+      "value": "#18395e",
       "type": "color"
     }
   },
