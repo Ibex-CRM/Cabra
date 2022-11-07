@@ -62,12 +62,12 @@ module.exports = {
       ]
     },
     "goatPrimary": {
-      "value": "#EE7622",
+      "value": "#21edeb",
       "type": "color",
       "filePath": "sd-input/src/from-figma-tokens.json",
       "isSource": true,
       "original": {
-        "value": "#EE7622",
+        "value": "#21edeb",
         "type": "color"
       },
       "name": "LightGoatPrimary",
