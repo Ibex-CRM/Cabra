@@ -1,9 +1,5 @@
 {
   "global": {
-    "Primary-btn": {
-      "value": "#9b27e6",
-      "type": "color"
-    },
     "medium": {
       "value": "5",
       "type": "borderRadius"
