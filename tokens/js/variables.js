@@ -4,8 +4,9 @@
 
 export const TokenSetOrder0 = "global";
 export const TokenSetOrder1 = "new";
-export const Red = "#e70505";
 export const Bvn = "#988b8b";
-export const PrimaryBtn = "#9b27e6";
+export const BlueNew = "#18395e";
 export const Medium = 5;
 export const PaddingM = 25;
+export const Red = "#bf0505";
+export const BluGlobal = "#445cac";
