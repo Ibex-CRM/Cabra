@@ -25,10 +25,6 @@
     "blue new": {
       "value": "#18395e",
       "type": "color"
-    },
-    "C": {
-      "value": "#a51515",
-      "type": "color"
     }
   },
   "$themes": [],
