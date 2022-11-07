@@ -3,4 +3,9 @@
  */
 
 export const TokenSetOrder0 = "global";
-export const WhiteTest = "#fff";
+export const Uppercase = "uppercase";
+export const Body = "Montserrat";
+export const Normal = "none";
+export const BodyRegularSmall = {"fontFamily":"Montserrat","fontWeight":"Regular","lineHeight":"160%","fontSize":"12px","letterSpacing":"auto","textCase":"none"};
+export const Montserrat = "Montserrat";
+export const GlobalWhite = "FFFFFF";
