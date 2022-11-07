@@ -13,7 +13,7 @@ const generateFilesArr = (tokensCategories) => {
   }))
 }
 
-module.exports = {
+export default {
   source: ['**/*.tokens.json'],
   format: {
     cssLiterals: (opts) => {
