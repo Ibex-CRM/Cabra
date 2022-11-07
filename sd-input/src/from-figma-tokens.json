@@ -1,9 +1,35 @@
 {
   "global": {
-    "white TEST": {
-      "value": "#fff",
-      "type": "color",
-      "description": "test"
+    "uppercase": {
+      "value": "uppercase",
+      "type": "textCase"
+    },
+    "body": {
+      "value": "Montserrat",
+      "type": "fontFamilies"
+    },
+    "normal": {
+      "value": "none",
+      "type": "textCase"
+    },
+    "Body-regular-small": {
+      "value": {
+        "fontFamily": "{body}",
+        "fontWeight": "Regular",
+        "lineHeight": "160%",
+        "fontSize": "12px",
+        "letterSpacing": "auto",
+        "textCase": "{normal}"
+      },
+      "type": "typography"
+    },
+    "Montserrat": {
+      "value": "Montserrat",
+      "type": "fontFamilies"
+    },
+    "global-white": {
+      "value": "FFFFFF",
+      "type": "color"
     }
   },
   "$themes": [],
