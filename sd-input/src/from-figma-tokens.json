@@ -4,10 +4,6 @@
       "value": "#9b27e6",
       "type": "color"
     },
-    "background": {
-      "value": "#d8d8d8",
-      "type": "color"
-    },
     "medium": {
       "value": "5",
       "type": "borderRadius"
