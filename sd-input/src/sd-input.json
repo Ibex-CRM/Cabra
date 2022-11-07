@@ -3,11 +3,34 @@
     "0": {
       "value": "global",
       "type": "other"
+    },
+    "1": {
+      "value": "new",
+      "type": "other"
     }
   },
-  "white TEST": {
-    "value": "#fff",
-    "type": "color",
-    "description": "test"
+  "red": {
+    "value": "#e70505",
+    "type": "color"
+  },
+  "bvn": {
+    "value": "#988b8b",
+    "type": "color"
+  },
+  "Primary-btn": {
+    "value": "#9b27e6",
+    "type": "color"
+  },
+  "background": {
+    "value": "#d8d8d8",
+    "type": "color"
+  },
+  "medium": {
+    "value": 5,
+    "type": "borderRadius"
+  },
+  "padding-m": {
+    "value": 25,
+    "type": "spacing"
   }
 }

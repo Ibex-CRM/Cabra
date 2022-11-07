@@ -1,6 +1,31 @@
 {
+  "name": "nextra",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "start": "next start",
+    "build": "next build"
+  },
+  "author": "Shu Ding",
+  "license": "MIT",
   "dependencies": {
+    "next": "^12.1.0",
+    "nextra": "^1.1.0",
+    "nextra-theme-docs": "^1.2.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
     "style-dictionary": "^3.7.1",
-    "token-transformer": "^0.0.27"
+    "styled-components": "^5.3.6",
+    "token-transformer": "^0.0.27",
+    "typescript": "^4.8.4"
+  },
+  "devDependencies": {
+    "prettier": "^2.0.5"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true
   }
 }
