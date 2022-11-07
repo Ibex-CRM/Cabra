@@ -7,6 +7,10 @@
     "padding-m": {
       "value": "25",
       "type": "spacing"
+    },
+    "Red": {
+      "value": "#bf0505",
+      "type": "color"
     }
   },
   "new": {
