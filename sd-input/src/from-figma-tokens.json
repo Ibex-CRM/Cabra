@@ -1,23 +1,67 @@
 {
-  "global": {
+  "light": {
     "medium": {
       "value": "5",
       "type": "borderRadius"
     },
-    "padding-m": {
-      "value": "25",
+    "globalWhite": {
+      "value": "#fff",
+      "type": "color"
+    },
+    "globalBlack": {
+      "value": "#000",
+      "type": "color"
+    },
+    "goatPrimary": {
+      "value": "#EE7622",
+      "type": "color"
+    },
+    "neutral400": {
+      "value": "#D4D4D4",
+      "type": "color"
+    },
+    "warning400": {
+      "value": "#A71010",
+      "type": "color"
+    },
+    "success": {
+      "value": "#6DC2A9",
+      "type": "color"
+    },
+    "supporting2": {
+      "value": "#F437F8",
+      "type": "color"
+    },
+    "space0": {
+      "value": "0",
       "type": "spacing"
     },
-    "Red": {
-      "value": "#bf0505",
-      "type": "color"
+    "space1": {
+      "value": "4px",
+      "type": "spacing"
     },
-    "blu global": {
-      "value": "#445cac",
-      "type": "color"
+    "space2": {
+      "value": "8px",
+      "type": "spacing"
+    },
+    "space3": {
+      "value": "16px",
+      "type": "spacing"
+    },
+    "space9": {
+      "value": "80px",
+      "type": "spacing"
+    },
+    "fontSize0": {
+      "value": "10px",
+      "type": "fontSizes"
+    },
+    "borderRadius3": {
+      "value": "20px",
+      "type": "borderRadius"
     }
   },
-  "new": {
+  "dark": {
     "bvn": {
       "value": "#988b8b",
       "type": "color"
@@ -30,8 +74,8 @@
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
-      "global",
-      "new"
+      "light",
+      "dark"
     ]
   }
 }

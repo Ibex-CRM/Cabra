@@ -3,7 +3,7 @@
  */
 
 module.exports = {
-  "global": {
+  "light": {
     "medium": {
       "value": "5",
       "type": "borderRadius",
@@ -13,75 +13,284 @@ module.exports = {
         "value": "5",
         "type": "borderRadius"
       },
-      "name": "GlobalMedium",
+      "name": "LightMedium",
       "attributes": {
-        "category": "global",
+        "category": "light",
         "type": "medium"
       },
       "path": [
-        "global",
+        "light",
         "medium"
       ]
     },
-    "padding-m": {
-      "value": "25",
+    "globalWhite": {
+      "value": "#fff",
+      "type": "color",
+      "filePath": "sd-input/src/from-figma-tokens.json",
+      "isSource": true,
+      "original": {
+        "value": "#fff",
+        "type": "color"
+      },
+      "name": "LightGlobalWhite",
+      "attributes": {
+        "category": "light",
+        "type": "globalWhite"
+      },
+      "path": [
+        "light",
+        "globalWhite"
+      ]
+    },
+    "globalBlack": {
+      "value": "#000",
+      "type": "color",
+      "filePath": "sd-input/src/from-figma-tokens.json",
+      "isSource": true,
+      "original": {
+        "value": "#000",
+        "type": "color"
+      },
+      "name": "LightGlobalBlack",
+      "attributes": {
+        "category": "light",
+        "type": "globalBlack"
+      },
+      "path": [
+        "light",
+        "globalBlack"
+      ]
+    },
+    "goatPrimary": {
+      "value": "#EE7622",
+      "type": "color",
+      "filePath": "sd-input/src/from-figma-tokens.json",
+      "isSource": true,
+      "original": {
+        "value": "#EE7622",
+        "type": "color"
+      },
+      "name": "LightGoatPrimary",
+      "attributes": {
+        "category": "light",
+        "type": "goatPrimary"
+      },
+      "path": [
+        "light",
+        "goatPrimary"
+      ]
+    },
+    "neutral400": {
+      "value": "#D4D4D4",
+      "type": "color",
+      "filePath": "sd-input/src/from-figma-tokens.json",
+      "isSource": true,
+      "original": {
+        "value": "#D4D4D4",
+        "type": "color"
+      },
+      "name": "LightNeutral400",
+      "attributes": {
+        "category": "light",
+        "type": "neutral400"
+      },
+      "path": [
+        "light",
+        "neutral400"
+      ]
+    },
+    "warning400": {
+      "value": "#A71010",
+      "type": "color",
+      "filePath": "sd-input/src/from-figma-tokens.json",
+      "isSource": true,
+      "original": {
+        "value": "#A71010",
+        "type": "color"
+      },
+      "name": "LightWarning400",
+      "attributes": {
+        "category": "light",
+        "type": "warning400"
+      },
+      "path": [
+        "light",
+        "warning400"
+      ]
+    },
+    "success": {
+      "value": "#6DC2A9",
+      "type": "color",
+      "filePath": "sd-input/src/from-figma-tokens.json",
+      "isSource": true,
+      "original": {
+        "value": "#6DC2A9",
+        "type": "color"
+      },
+      "name": "LightSuccess",
+      "attributes": {
+        "category": "light",
+        "type": "success"
+      },
+      "path": [
+        "light",
+        "success"
+      ]
+    },
+    "supporting2": {
+      "value": "#F437F8",
+      "type": "color",
+      "filePath": "sd-input/src/from-figma-tokens.json",
+      "isSource": true,
+      "original": {
+        "value": "#F437F8",
+        "type": "color"
+      },
+      "name": "LightSupporting2",
+      "attributes": {
+        "category": "light",
+        "type": "supporting2"
+      },
+      "path": [
+        "light",
+        "supporting2"
+      ]
+    },
+    "space0": {
+      "value": "0",
       "type": "spacing",
       "filePath": "sd-input/src/from-figma-tokens.json",
       "isSource": true,
       "original": {
-        "value": "25",
+        "value": "0",
         "type": "spacing"
       },
-      "name": "GlobalPaddingM",
+      "name": "LightSpace0",
       "attributes": {
-        "category": "global",
-        "type": "padding-m"
+        "category": "light",
+        "type": "space0"
       },
       "path": [
-        "global",
-        "padding-m"
+        "light",
+        "space0"
       ]
     },
-    "Red": {
-      "value": "#bf0505",
-      "type": "color",
+    "space1": {
+      "value": "4px",
+      "type": "spacing",
       "filePath": "sd-input/src/from-figma-tokens.json",
       "isSource": true,
       "original": {
-        "value": "#bf0505",
-        "type": "color"
+        "value": "4px",
+        "type": "spacing"
       },
-      "name": "GlobalRed",
+      "name": "LightSpace1",
       "attributes": {
-        "category": "global",
-        "type": "Red"
+        "category": "light",
+        "type": "space1"
       },
       "path": [
-        "global",
-        "Red"
+        "light",
+        "space1"
       ]
     },
-    "blu global": {
-      "value": "#445cac",
-      "type": "color",
+    "space2": {
+      "value": "8px",
+      "type": "spacing",
       "filePath": "sd-input/src/from-figma-tokens.json",
       "isSource": true,
       "original": {
-        "value": "#445cac",
-        "type": "color"
+        "value": "8px",
+        "type": "spacing"
       },
-      "name": "GlobalBluGlobal",
+      "name": "LightSpace2",
       "attributes": {
-        "category": "global",
-        "type": "blu global"
+        "category": "light",
+        "type": "space2"
       },
       "path": [
-        "global",
-        "blu global"
+        "light",
+        "space2"
+      ]
+    },
+    "space3": {
+      "value": "16px",
+      "type": "spacing",
+      "filePath": "sd-input/src/from-figma-tokens.json",
+      "isSource": true,
+      "original": {
+        "value": "16px",
+        "type": "spacing"
+      },
+      "name": "LightSpace3",
+      "attributes": {
+        "category": "light",
+        "type": "space3"
+      },
+      "path": [
+        "light",
+        "space3"
+      ]
+    },
+    "space9": {
+      "value": "80px",
+      "type": "spacing",
+      "filePath": "sd-input/src/from-figma-tokens.json",
+      "isSource": true,
+      "original": {
+        "value": "80px",
+        "type": "spacing"
+      },
+      "name": "LightSpace9",
+      "attributes": {
+        "category": "light",
+        "type": "space9"
+      },
+      "path": [
+        "light",
+        "space9"
+      ]
+    },
+    "fontSize0": {
+      "value": "10px",
+      "type": "fontSizes",
+      "filePath": "sd-input/src/from-figma-tokens.json",
+      "isSource": true,
+      "original": {
+        "value": "10px",
+        "type": "fontSizes"
+      },
+      "name": "LightFontSize0",
+      "attributes": {
+        "category": "light",
+        "type": "fontSize0"
+      },
+      "path": [
+        "light",
+        "fontSize0"
+      ]
+    },
+    "borderRadius3": {
+      "value": "20px",
+      "type": "borderRadius",
+      "filePath": "sd-input/src/from-figma-tokens.json",
+      "isSource": true,
+      "original": {
+        "value": "20px",
+        "type": "borderRadius"
+      },
+      "name": "LightBorderRadius3",
+      "attributes": {
+        "category": "light",
+        "type": "borderRadius3"
+      },
+      "path": [
+        "light",
+        "borderRadius3"
       ]
     }
   },
-  "new": {
+  "dark": {
     "bvn": {
       "value": "#988b8b",
       "type": "color",
@@ -91,13 +300,13 @@ module.exports = {
         "value": "#988b8b",
         "type": "color"
       },
-      "name": "NewBvn",
+      "name": "DarkBvn",
       "attributes": {
-        "category": "new",
+        "category": "dark",
         "type": "bvn"
       },
       "path": [
-        "new",
+        "dark",
         "bvn"
       ]
     },
@@ -110,13 +319,13 @@ module.exports = {
         "value": "#18395e",
         "type": "color"
       },
-      "name": "NewBlueNew",
+      "name": "DarkBlueNew",
       "attributes": {
-        "category": "new",
+        "category": "dark",
         "type": "blue new"
       },
       "path": [
-        "new",
+        "dark",
         "blue new"
       ]
     }
@@ -124,8 +333,8 @@ module.exports = {
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
-      "global",
-      "new"
+      "light",
+      "dark"
     ]
   }
 };
