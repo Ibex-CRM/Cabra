@@ -2,7 +2,7 @@ import * as React from 'react';
 import type { ReactNode } from 'react';
 import styled from 'styled-components';
 import { ThemeContext } from 'styled-components';
-import {colors, space, fontSizes} from '../../tokens/js/variables';
+import {colors, space, fontSizes} from '../../tokens-output/js/variables';
 
 
 const StyledTagPill = styled.div(
