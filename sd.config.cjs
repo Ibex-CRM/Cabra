@@ -8,7 +8,7 @@ module.exports = {
   platforms: {
     js: {
       transformGroup: 'js',
-      buildPath: 'tokens-output/js/',
+      buildPath: 'tokens/js/',
       files: [
         {
           destination: 'variables.js',

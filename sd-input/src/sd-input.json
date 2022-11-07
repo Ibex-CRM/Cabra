@@ -3,37 +3,34 @@
     "0": {
       "value": "global",
       "type": "other"
+    },
+    "1": {
+      "value": "new",
+      "type": "other"
     }
   },
-  "uppercase": {
-    "value": "uppercase",
-    "type": "textCase"
-  },
-  "body": {
-    "value": "Montserrat",
-    "type": "fontFamilies"
-  },
-  "normal": {
-    "value": "none",
-    "type": "textCase"
-  },
-  "Body-regular-small": {
-    "value": {
-      "fontFamily": "{body}",
-      "fontWeight": "Regular",
-      "lineHeight": "160%",
-      "fontSize": "12px",
-      "letterSpacing": "auto",
-      "textCase": "{normal}"
-    },
-    "type": "typography"
-  },
-  "Montserrat": {
-    "value": "Montserrat",
-    "type": "fontFamilies"
-  },
-  "global-white": {
-    "value": "FFFFFF",
+  "red": {
+    "value": "#e70505",
     "type": "color"
+  },
+  "bvn": {
+    "value": "#988b8b",
+    "type": "color"
+  },
+  "Primary-btn": {
+    "value": "#9b27e6",
+    "type": "color"
+  },
+  "background": {
+    "value": "#d8d8d8",
+    "type": "color"
+  },
+  "medium": {
+    "value": 5,
+    "type": "borderRadius"
+  },
+  "padding-m": {
+    "value": 25,
+    "type": "spacing"
   }
 }
