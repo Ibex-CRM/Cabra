@@ -17,10 +17,6 @@
     "value": "#18395e",
     "type": "color"
   },
-  "C": {
-    "value": "#a51515",
-    "type": "color"
-  },
   "medium": {
     "value": 5,
     "type": "borderRadius"
