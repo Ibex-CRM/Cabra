@@ -62,12 +62,12 @@ module.exports = {
       ]
     },
     "goatPrimary": {
-      "value": "#ed3021",
+      "value": "#EE7622",
       "type": "color",
       "filePath": "sd-input/src/from-figma-tokens.json",
       "isSource": true,
       "original": {
-        "value": "#ed3021",
+        "value": "#EE7622",
         "type": "color"
       },
       "name": "LightGoatPrimary",
@@ -271,12 +271,12 @@ module.exports = {
       ]
     },
     "borderRadius3": {
-      "value": "3px",
+      "value": "20px",
       "type": "borderRadius",
       "filePath": "sd-input/src/from-figma-tokens.json",
       "isSource": true,
       "original": {
-        "value": "3px",
+        "value": "20px",
         "type": "borderRadius"
       },
       "name": "LightBorderRadius3",
