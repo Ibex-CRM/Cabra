@@ -1,7 +1,7 @@
 {
-  "name": "cabra",
+  "name": "nextra",
   "version": "1.0.0",
-  "description": "_Warning: this project is not production ready, API might change without notice._",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "next",
@@ -27,13 +27,5 @@
   "prettier": {
     "semi": false,
     "singleQuote": true
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Ibex-CRM/Cabra.git"
-  },
-  "bugs": {
-    "url": "https://github.com/Ibex-CRM/Cabra/issues"
-  },
-  "homepage": "https://github.com/Ibex-CRM/Cabra#readme"
+  }
 }
