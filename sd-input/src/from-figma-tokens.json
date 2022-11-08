@@ -13,7 +13,7 @@
       "type": "color"
     },
     "goatPrimary": {
-      "value": "#eda121",
+      "value": "#ed3021",
       "type": "color"
     },
     "neutral400": {
@@ -57,7 +57,7 @@
       "type": "fontSizes"
     },
     "borderRadius3": {
-      "value": "20px",
+      "value": "3px",
       "type": "borderRadius"
     }
   },
