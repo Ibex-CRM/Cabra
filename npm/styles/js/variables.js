@@ -383,6 +383,44 @@ module.exports = {
         "Core",
         "sda"
       ]
+    },
+    "dfgh": {
+      "value": "#341a67",
+      "type": "color",
+      "filePath": "sd-input/src/from-figma-tokens.json",
+      "isSource": true,
+      "original": {
+        "value": "#341a67",
+        "type": "color"
+      },
+      "name": "CoreDfgh",
+      "attributes": {
+        "category": "Core",
+        "type": "dfgh"
+      },
+      "path": [
+        "Core",
+        "dfgh"
+      ]
+    },
+    "hfj": {
+      "value": "#1a9e23",
+      "type": "color",
+      "filePath": "sd-input/src/from-figma-tokens.json",
+      "isSource": true,
+      "original": {
+        "value": "#1a9e23",
+        "type": "color"
+      },
+      "name": "CoreHfj",
+      "attributes": {
+        "category": "Core",
+        "type": "hfj"
+      },
+      "path": [
+        "Core",
+        "hfj"
+      ]
     }
   },
   "dark": {
