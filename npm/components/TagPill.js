@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-const tokens = require('cabra/styles/js/variables');
+const tokens = require('../styles/js/variables');
 
 
 const TagPill = styled.div(
