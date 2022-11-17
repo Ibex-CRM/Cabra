@@ -1,5 +1,5 @@
 {
-  "light": {
+  "Core": {
     "medium": {
       "value": "5",
       "type": "borderRadius"
@@ -13,7 +13,7 @@
       "type": "color"
     },
     "goatPrimary": {
-      "value": "#EE7622",
+      "value": "#ee7622",
       "type": "color"
     },
     "neutral400": {
@@ -59,6 +59,14 @@
     "borderRadius3": {
       "value": "20px",
       "type": "borderRadius"
+    },
+    "primary-btn-v-pad": {
+      "value": "$space1",
+      "type": "spacing"
+    },
+    "primary-btn-h-pad": {
+      "value": "$space3",
+      "type": "spacing"
     }
   },
   "dark": {
@@ -74,7 +82,7 @@
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
-      "light",
+      "Core",
       "dark"
     ]
   }

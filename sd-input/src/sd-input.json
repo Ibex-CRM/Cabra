@@ -1,7 +1,7 @@
 {
   "tokenSetOrder": {
     "0": {
-      "value": "light",
+      "value": "Core",
       "type": "other"
     },
     "1": {
@@ -30,7 +30,7 @@
     "type": "color"
   },
   "goatPrimary": {
-    "value": "#EE7622",
+    "value": "#ee7622",
     "type": "color"
   },
   "neutral400": {
@@ -76,5 +76,13 @@
   "borderRadius3": {
     "value": "20px",
     "type": "borderRadius"
+  },
+  "primary-btn-v-pad": {
+    "value": "$space1",
+    "type": "spacing"
+  },
+  "primary-btn-h-pad": {
+    "value": "$space3",
+    "type": "spacing"
   }
 }
