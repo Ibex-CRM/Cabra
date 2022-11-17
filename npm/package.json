@@ -1,0 +1,18 @@
+{
+  "name": "cabra",
+  "version": "1.0.4",
+  "description": "Cabra design system",
+  "main": "index.js",
+  "files": [
+    "styles/js/*.js",
+    "components/*.js"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Carlos Diaz",
+  "license": "ISC",
+  "dependencies": {
+    "styled-components": "^5.3.6"
+  }
+}

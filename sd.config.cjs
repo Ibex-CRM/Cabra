@@ -9,7 +9,7 @@ module.exports = {
 
     js: {
       transformGroup: 'js',
-      buildPath: 'tokens/js/',
+      buildPath: 'npm/styles/js/',
       files: [
         {
           destination: 'variables.js',
