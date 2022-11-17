@@ -326,6 +326,25 @@ module.exports = {
         "Core",
         "primary-btn-h-pad"
       ]
+    },
+    "New super color": {
+      "value": "#9619bd",
+      "type": "color",
+      "filePath": "sd-input/src/from-figma-tokens.json",
+      "isSource": true,
+      "original": {
+        "value": "#9619bd",
+        "type": "color"
+      },
+      "name": "CoreNewSuperColor",
+      "attributes": {
+        "category": "Core",
+        "type": "New super color"
+      },
+      "path": [
+        "Core",
+        "New super color"
+      ]
     }
   },
   "dark": {
