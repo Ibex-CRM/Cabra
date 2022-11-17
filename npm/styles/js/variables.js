@@ -345,6 +345,25 @@ module.exports = {
         "Core",
         "unq"
       ]
+    },
+    "new uniq c": {
+      "value": "#8d006b",
+      "type": "color",
+      "filePath": "sd-input/src/from-figma-tokens.json",
+      "isSource": true,
+      "original": {
+        "value": "#8d006b",
+        "type": "color"
+      },
+      "name": "CoreNewUniqC",
+      "attributes": {
+        "category": "Core",
+        "type": "new uniq c"
+      },
+      "path": [
+        "Core",
+        "new uniq c"
+      ]
     }
   },
   "dark": {
