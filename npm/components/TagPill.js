@@ -44,7 +44,7 @@ const TagPill = styled.div(
       // minHeight: theme.space[6],
       borderRadius: theme.borderRadius3.value,
       color: color(),
-      borderWidth: '1px',
+      borderWidth: '0px',
       backgroundColor: backgroundColor(),
       opacity: disabled ? 0.6 : 1,
     };
