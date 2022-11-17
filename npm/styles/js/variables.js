@@ -326,6 +326,25 @@ module.exports = {
         "Core",
         "primary-btn-h-pad"
       ]
+    },
+    "unq": {
+      "value": "#b01515",
+      "type": "color",
+      "filePath": "sd-input/src/from-figma-tokens.json",
+      "isSource": true,
+      "original": {
+        "value": "#b01515",
+        "type": "color"
+      },
+      "name": "CoreUnq",
+      "attributes": {
+        "category": "Core",
+        "type": "unq"
+      },
+      "path": [
+        "Core",
+        "unq"
+      ]
     }
   },
   "dark": {
