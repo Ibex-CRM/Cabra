@@ -67,10 +67,6 @@
     "primary-btn-h-pad": {
       "value": "$space3",
       "type": "spacing"
-    },
-    "new token": {
-      "value": "#654646",
-      "type": "color"
     }
   },
   "dark": {
