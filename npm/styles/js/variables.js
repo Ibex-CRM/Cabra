@@ -402,25 +402,6 @@ module.exports = {
         "Core",
         "dfgh"
       ]
-    },
-    "hfj": {
-      "value": "#1a9e23",
-      "type": "color",
-      "filePath": "sd-input/src/from-figma-tokens.json",
-      "isSource": true,
-      "original": {
-        "value": "#1a9e23",
-        "type": "color"
-      },
-      "name": "CoreHfj",
-      "attributes": {
-        "category": "Core",
-        "type": "hfj"
-      },
-      "path": [
-        "Core",
-        "hfj"
-      ]
     }
   },
   "dark": {
