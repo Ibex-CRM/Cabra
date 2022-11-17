@@ -1,6 +1,6 @@
 {
   "name": "cabra",
-  "version": "1.0.4",
+  "version": "1.0.7",
   "description": "Cabra design system",
   "main": "index.js",
   "files": [
@@ -13,6 +13,7 @@
   "author": "Carlos Diaz",
   "license": "ISC",
   "dependencies": {
+    "@babel/runtime": "^7.20.1",
     "styled-components": "^5.3.6"
   }
 }
