@@ -1,13 +1,13 @@
 name: Deploy to GitHub Pages
 
 on:
-  workflow_run:
-    workflows: ['automerge']
+  pull_request_target:
     types:
-      - completed
+      - closed
 
 jobs:
   build:
+    if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
 
     strategy:
