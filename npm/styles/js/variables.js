@@ -364,6 +364,25 @@ module.exports = {
         "Core",
         "new uniq c"
       ]
+    },
+    "sda": {
+      "value": "#7d6464",
+      "type": "color",
+      "filePath": "sd-input/src/from-figma-tokens.json",
+      "isSource": true,
+      "original": {
+        "value": "#7d6464",
+        "type": "color"
+      },
+      "name": "CoreSda",
+      "attributes": {
+        "category": "Core",
+        "type": "sda"
+      },
+      "path": [
+        "Core",
+        "sda"
+      ]
     }
   },
   "dark": {

@@ -92,5 +92,9 @@
   "new uniq c": {
     "value": "#8d006b",
     "type": "color"
+  },
+  "sda": {
+    "value": "#7d6464",
+    "type": "color"
   }
 }
