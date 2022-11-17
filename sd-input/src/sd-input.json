@@ -84,5 +84,9 @@
   "primary-btn-h-pad": {
     "value": "$space3",
     "type": "spacing"
+  },
+  "unq": {
+    "value": "#b01515",
+    "type": "color"
   }
 }
