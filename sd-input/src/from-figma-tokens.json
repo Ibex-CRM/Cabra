@@ -67,10 +67,6 @@
     "primary-btn-h-pad": {
       "value": "$space3",
       "type": "spacing"
-    },
-    "New super color": {
-      "value": "#9619bd",
-      "type": "color"
     }
   },
   "dark": {
