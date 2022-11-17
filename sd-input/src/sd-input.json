@@ -88,5 +88,9 @@
   "unq": {
     "value": "#b01515",
     "type": "color"
+  },
+  "new uniq c": {
+    "value": "#8d006b",
+    "type": "color"
   }
 }
