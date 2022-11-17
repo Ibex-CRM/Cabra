@@ -3,7 +3,7 @@
  */
 
 module.exports = {
-  "light": {
+  "Core": {
     "medium": {
       "value": "5",
       "type": "borderRadius",
@@ -13,13 +13,13 @@ module.exports = {
         "value": "5",
         "type": "borderRadius"
       },
-      "name": "LightMedium",
+      "name": "CoreMedium",
       "attributes": {
-        "category": "light",
+        "category": "Core",
         "type": "medium"
       },
       "path": [
-        "light",
+        "Core",
         "medium"
       ]
     },
@@ -32,13 +32,13 @@ module.exports = {
         "value": "#fff",
         "type": "color"
       },
-      "name": "LightGlobalWhite",
+      "name": "CoreGlobalWhite",
       "attributes": {
-        "category": "light",
+        "category": "Core",
         "type": "globalWhite"
       },
       "path": [
-        "light",
+        "Core",
         "globalWhite"
       ]
     },
@@ -51,32 +51,32 @@ module.exports = {
         "value": "#000",
         "type": "color"
       },
-      "name": "LightGlobalBlack",
+      "name": "CoreGlobalBlack",
       "attributes": {
-        "category": "light",
+        "category": "Core",
         "type": "globalBlack"
       },
       "path": [
-        "light",
+        "Core",
         "globalBlack"
       ]
     },
     "goatPrimary": {
-      "value": "#EE7622",
+      "value": "#ee7622",
       "type": "color",
       "filePath": "sd-input/src/from-figma-tokens.json",
       "isSource": true,
       "original": {
-        "value": "#EE7622",
+        "value": "#ee7622",
         "type": "color"
       },
-      "name": "LightGoatPrimary",
+      "name": "CoreGoatPrimary",
       "attributes": {
-        "category": "light",
+        "category": "Core",
         "type": "goatPrimary"
       },
       "path": [
-        "light",
+        "Core",
         "goatPrimary"
       ]
     },
@@ -89,13 +89,13 @@ module.exports = {
         "value": "#D4D4D4",
         "type": "color"
       },
-      "name": "LightNeutral400",
+      "name": "CoreNeutral400",
       "attributes": {
-        "category": "light",
+        "category": "Core",
         "type": "neutral400"
       },
       "path": [
-        "light",
+        "Core",
         "neutral400"
       ]
     },
@@ -108,13 +108,13 @@ module.exports = {
         "value": "#A71010",
         "type": "color"
       },
-      "name": "LightWarning400",
+      "name": "CoreWarning400",
       "attributes": {
-        "category": "light",
+        "category": "Core",
         "type": "warning400"
       },
       "path": [
-        "light",
+        "Core",
         "warning400"
       ]
     },
@@ -127,13 +127,13 @@ module.exports = {
         "value": "#6DC2A9",
         "type": "color"
       },
-      "name": "LightSuccess",
+      "name": "CoreSuccess",
       "attributes": {
-        "category": "light",
+        "category": "Core",
         "type": "success"
       },
       "path": [
-        "light",
+        "Core",
         "success"
       ]
     },
@@ -146,13 +146,13 @@ module.exports = {
         "value": "#F437F8",
         "type": "color"
       },
-      "name": "LightSupporting2",
+      "name": "CoreSupporting2",
       "attributes": {
-        "category": "light",
+        "category": "Core",
         "type": "supporting2"
       },
       "path": [
-        "light",
+        "Core",
         "supporting2"
       ]
     },
@@ -165,13 +165,13 @@ module.exports = {
         "value": "0",
         "type": "spacing"
       },
-      "name": "LightSpace0",
+      "name": "CoreSpace0",
       "attributes": {
-        "category": "light",
+        "category": "Core",
         "type": "space0"
       },
       "path": [
-        "light",
+        "Core",
         "space0"
       ]
     },
@@ -184,13 +184,13 @@ module.exports = {
         "value": "4px",
         "type": "spacing"
       },
-      "name": "LightSpace1",
+      "name": "CoreSpace1",
       "attributes": {
-        "category": "light",
+        "category": "Core",
         "type": "space1"
       },
       "path": [
-        "light",
+        "Core",
         "space1"
       ]
     },
@@ -203,13 +203,13 @@ module.exports = {
         "value": "8px",
         "type": "spacing"
       },
-      "name": "LightSpace2",
+      "name": "CoreSpace2",
       "attributes": {
-        "category": "light",
+        "category": "Core",
         "type": "space2"
       },
       "path": [
-        "light",
+        "Core",
         "space2"
       ]
     },
@@ -222,13 +222,13 @@ module.exports = {
         "value": "16px",
         "type": "spacing"
       },
-      "name": "LightSpace3",
+      "name": "CoreSpace3",
       "attributes": {
-        "category": "light",
+        "category": "Core",
         "type": "space3"
       },
       "path": [
-        "light",
+        "Core",
         "space3"
       ]
     },
@@ -241,13 +241,13 @@ module.exports = {
         "value": "80px",
         "type": "spacing"
       },
-      "name": "LightSpace9",
+      "name": "CoreSpace9",
       "attributes": {
-        "category": "light",
+        "category": "Core",
         "type": "space9"
       },
       "path": [
-        "light",
+        "Core",
         "space9"
       ]
     },
@@ -260,13 +260,13 @@ module.exports = {
         "value": "10px",
         "type": "fontSizes"
       },
-      "name": "LightFontSize0",
+      "name": "CoreFontSize0",
       "attributes": {
-        "category": "light",
+        "category": "Core",
         "type": "fontSize0"
       },
       "path": [
-        "light",
+        "Core",
         "fontSize0"
       ]
     },
@@ -279,14 +279,52 @@ module.exports = {
         "value": "20px",
         "type": "borderRadius"
       },
-      "name": "LightBorderRadius3",
+      "name": "CoreBorderRadius3",
       "attributes": {
-        "category": "light",
+        "category": "Core",
         "type": "borderRadius3"
       },
       "path": [
-        "light",
+        "Core",
         "borderRadius3"
+      ]
+    },
+    "primary-btn-v-pad": {
+      "value": "$space1",
+      "type": "spacing",
+      "filePath": "sd-input/src/from-figma-tokens.json",
+      "isSource": true,
+      "original": {
+        "value": "$space1",
+        "type": "spacing"
+      },
+      "name": "CorePrimaryBtnVPad",
+      "attributes": {
+        "category": "Core",
+        "type": "primary-btn-v-pad"
+      },
+      "path": [
+        "Core",
+        "primary-btn-v-pad"
+      ]
+    },
+    "primary-btn-h-pad": {
+      "value": "$space3",
+      "type": "spacing",
+      "filePath": "sd-input/src/from-figma-tokens.json",
+      "isSource": true,
+      "original": {
+        "value": "$space3",
+        "type": "spacing"
+      },
+      "name": "CorePrimaryBtnHPad",
+      "attributes": {
+        "category": "Core",
+        "type": "primary-btn-h-pad"
+      },
+      "path": [
+        "Core",
+        "primary-btn-h-pad"
       ]
     }
   },
@@ -333,7 +371,7 @@ module.exports = {
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
-      "light",
+      "Core",
       "dark"
     ]
   }
