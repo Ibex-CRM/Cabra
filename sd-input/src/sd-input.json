@@ -96,5 +96,9 @@
   "sda": {
     "value": "#7d6464",
     "type": "color"
+  },
+  "dfgh": {
+    "value": "#341a67",
+    "type": "color"
   }
 }
