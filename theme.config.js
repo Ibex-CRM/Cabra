@@ -16,15 +16,13 @@ export default {
       <meta name="theme-color" content="#ffffff" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta httpEquiv="Content-Language" content="en" />
-      <meta name="description" content="Nextra: the Next.js site builder" />
-      <meta name="og:description" content="Nextra: the Next.js site builder" />
+      <meta name="description" content="Cabra: the Goat Agency design system" />
+      <meta name="og:description" content="Cabra: the Goat Agency design system" />
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:image" content="https://nextra.vercel.app/og.png" />
-      <meta name="twitter:site:domain" content="nextra.vercel.app" />
-      <meta name="twitter:url" content="https://nextra.vercel.app" />
-      <meta name="og:title" content="Nextra: Next.js static site generator" />
-      <meta name="og:image" content="https://nextra.vercel.app/og.png" />
-      <meta name="apple-mobile-web-app-title" content="Nextra" />
+      <meta name="twitter:image" content="https://res.cloudinary.com/montycat/image/upload/v1557750788/Goat/goat_logo.png" />
+      <meta name="og:title" content="Cabra: the Goat Agency design system" />
+      <meta name="og:image" content="https://res.cloudinary.com/montycat/image/upload/v1557750788/Goat/goat_logo.png" />
+      <meta name="apple-mobile-web-app-title" content="Cabra" />
       <link
         rel="apple-touch-icon"
         sizes="180x180"
@@ -62,6 +60,6 @@ export default {
   nextLinks: true,
   footer: true,
   footerEditLink: 'Edit this page on GitHub',
-  footerText: <>MIT {new Date().getFullYear()} © Nextra.</>,
+  footerText: <>MIT {new Date().getFullYear()} © Cabra.</>,
   unstable_faviconGlyph: '🐐',
 }
