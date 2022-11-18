@@ -67,26 +67,6 @@
     "primary-btn-h-pad": {
       "value": "$space3",
       "type": "spacing"
-    },
-    "unq": {
-      "value": "#b01515",
-      "type": "color"
-    },
-    "new uniq c": {
-      "value": "#8d006b",
-      "type": "color"
-    },
-    "sda": {
-      "value": "#7d6464",
-      "type": "color"
-    },
-    "dfgh": {
-      "value": "#341a67",
-      "type": "color"
-    },
-    "sadasd": {
-      "value": "#634a4a",
-      "type": "color"
     }
   },
   "dark": {
