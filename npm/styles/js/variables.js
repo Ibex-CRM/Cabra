@@ -43,12 +43,12 @@ module.exports = {
       ]
     },
     "globalBlack": {
-      "value": "#000",
+      "value": "#171717",
       "type": "color",
       "filePath": "sd-input/src/from-figma-tokens.json",
       "isSource": true,
       "original": {
-        "value": "#000",
+        "value": "#171717",
         "type": "color"
       },
       "name": "CoreGlobalBlack",
