@@ -2,4 +2,6 @@ import * as tokens from '../../npm/styles/js/variables.js';
 
 ## Colors
 
-<div style={{height: '25px', backgroundColor: tokens['Core'].goatPrimary.value, color: 'white', paddingLeft: '15px'}}>Primary</div>
+{Object.entries(tokens['Core']).map(([key, value]) => {
+  if (value.type === 'color') return (<div style={{marginBottom: '5px', height: '25px', backgroundColor: value.value, color: 'white', paddingLeft: '15px'}}>{key}</div>)
+})}
