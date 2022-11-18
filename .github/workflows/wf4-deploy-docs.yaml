@@ -5,6 +5,7 @@ on:
     types:
       - closed
       - auto_merge_enabled
+      - labeled
 
 jobs:
   build:

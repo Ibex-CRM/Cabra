@@ -15,7 +15,7 @@ jobs:
           ref: ${{ github.event.pull_request.head.ref }}
 
       - name: Install Dependencies
-        run: npm install
+        run: npm install token-transformer style-dictionary
 
       - name: Run token-transformer
         run: npx token-transformer sd-input/src/from-figma-tokens.json sd-input/src/sd-input.json --resolveReferences false
