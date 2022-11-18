@@ -14,7 +14,7 @@
   "dependencies": {
     "@mdx-js/loader": "^2.1.5",
     "next": "^12.1.0",
-    "next-optimized-images": "^1.4.2",
+    "next-optimized-images": "^2.6.2",
     "nextra": "^0.4.1",
     "nextra-theme-docs": "^1.2.2",
     "react": "^17.0.1",
