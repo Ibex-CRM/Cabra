@@ -1,7 +1,7 @@
 export default {
   github: 'https://github.com/Ibex-CRM/Cabra',
   docsRepositoryBase: 'https://github.com/Ibex-CRM/Cabra/blob/master',
-  titleSuffix: ' – Nextra',
+  titleSuffix: ' – Cabra Docs',
   logo: (
     <>
       <span className="mr-2 font-extrabold hidden md:inline">Nextra</span>
