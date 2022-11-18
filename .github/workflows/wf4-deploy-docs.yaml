@@ -1,11 +1,8 @@
 name: Deploy to GitHub Pages
 
 on:
-  pull_request:
-    types:
-      - merged
   workflow_run:
-    workflows: ['Process Fgima Tokens']
+    workflows: ['automerge']
     types:
       - completed
 
