@@ -4,14 +4,15 @@ export default {
   titleSuffix: ' – Cabra Docs',
   logo: (
     <>
-      <span className="mr-2 font-extrabold hidden md:inline">Nextra</span>
+      <span className="mr-2 font-extrabold hidden md:inline">Cabra</span>
       <span className="text-gray-600 font-normal hidden md:inline">
-        The Next.js Static Site Generator
+      The Goat Agency Design System
       </span>
     </>
   ),
   head: (
     <>
+      <title>Cabra</title>
       <meta name="msapplication-TileColor" content="#ffffff" />
       <meta name="theme-color" content="#ffffff" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
