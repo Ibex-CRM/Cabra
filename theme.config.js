@@ -1,6 +1,6 @@
 export default {
-  github: 'https://github.com/shuding/nextra',
-  docsRepositoryBase: 'https://github.com/shuding/nextra/blob/master',
+  github: 'https://github.com/Ibex-CRM/Cabra',
+  docsRepositoryBase: 'https://github.com/Ibex-CRM/Cabra/blob/master',
   titleSuffix: ' – Nextra',
   logo: (
     <>
