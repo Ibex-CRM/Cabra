@@ -4,7 +4,10 @@ on:
   pull_request:
     types:
       - merged
-      - labeled
+  workflow_run:
+    workflows: ['Process Fgima Tokens']
+    types:
+      - completed
 
 jobs:
   build:
