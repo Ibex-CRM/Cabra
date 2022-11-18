@@ -402,6 +402,25 @@ module.exports = {
         "Core",
         "dfgh"
       ]
+    },
+    "sadasd": {
+      "value": "#634a4a",
+      "type": "color",
+      "filePath": "sd-input/src/from-figma-tokens.json",
+      "isSource": true,
+      "original": {
+        "value": "#634a4a",
+        "type": "color"
+      },
+      "name": "CoreSadasd",
+      "attributes": {
+        "category": "Core",
+        "type": "sadasd"
+      },
+      "path": [
+        "Core",
+        "sadasd"
+      ]
     }
   },
   "dark": {
