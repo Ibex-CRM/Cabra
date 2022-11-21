@@ -4,375 +4,1511 @@
 
 module.exports = {
   "Core": {
-    "medium": {
-      "value": "5",
-      "type": "borderRadius",
-      "filePath": "sd-input/src/from-figma-tokens.json",
-      "isSource": true,
-      "original": {
-        "value": "5",
-        "type": "borderRadius"
+    "Global": {
+      "globalWhite: '#FFFFFF',": {
+        "value": "#ffffff",
+        "type": "color",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "#ffffff",
+          "type": "color"
+        },
+        "name": "CoreGlobalGlobalWhiteFfffff",
+        "attributes": {
+          "category": "Core",
+          "type": "Global",
+          "item": "globalWhite: '#FFFFFF',"
+        },
+        "path": [
+          "Core",
+          "Global",
+          "globalWhite: '#FFFFFF',"
+        ]
       },
-      "name": "CoreMedium",
-      "attributes": {
-        "category": "Core",
-        "type": "medium"
+      "globalBlack: '#000000',": {
+        "value": "#000000",
+        "type": "color",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "#000000",
+          "type": "color"
+        },
+        "name": "CoreGlobalGlobalBlack000000",
+        "attributes": {
+          "category": "Core",
+          "type": "Global",
+          "item": "globalBlack: '#000000',"
+        },
+        "path": [
+          "Core",
+          "Global",
+          "globalBlack: '#000000',"
+        ]
       },
-      "path": [
-        "Core",
-        "medium"
-      ]
+      "(Transparent) FFFFFF 0%": {
+        "value": "#ffffff00",
+        "type": "color",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "#ffffff00",
+          "type": "color"
+        },
+        "name": "CoreGlobalTransparentFfffff0",
+        "attributes": {
+          "category": "Core",
+          "type": "Global",
+          "item": "(Transparent) FFFFFF 0%"
+        },
+        "path": [
+          "Core",
+          "Global",
+          "(Transparent) FFFFFF 0%"
+        ]
+      },
+      "Neutrals": {
+        "neutral100: '#FAFAFA',": {
+          "value": "#fafafa",
+          "type": "color",
+          "filePath": "sd-input/src/from-figma-tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "#fafafa",
+            "type": "color"
+          },
+          "name": "CoreGlobalNeutralsNeutral100Fafafa",
+          "attributes": {
+            "category": "Core",
+            "type": "Global",
+            "item": "Neutrals",
+            "subitem": "neutral100: '#FAFAFA',"
+          },
+          "path": [
+            "Core",
+            "Global",
+            "Neutrals",
+            "neutral100: '#FAFAFA',"
+          ]
+        },
+        "neutral200: '#F5F5F5',": {
+          "value": "#f5f5f5",
+          "type": "color",
+          "filePath": "sd-input/src/from-figma-tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "#f5f5f5",
+            "type": "color"
+          },
+          "name": "CoreGlobalNeutralsNeutral200F5F5F5",
+          "attributes": {
+            "category": "Core",
+            "type": "Global",
+            "item": "Neutrals",
+            "subitem": "neutral200: '#F5F5F5',"
+          },
+          "path": [
+            "Core",
+            "Global",
+            "Neutrals",
+            "neutral200: '#F5F5F5',"
+          ]
+        },
+        "neutral300: '#E5E5E5',": {
+          "value": "#e5e5e5",
+          "type": "color",
+          "filePath": "sd-input/src/from-figma-tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "#e5e5e5",
+            "type": "color"
+          },
+          "name": "CoreGlobalNeutralsNeutral300E5E5E5",
+          "attributes": {
+            "category": "Core",
+            "type": "Global",
+            "item": "Neutrals",
+            "subitem": "neutral300: '#E5E5E5',"
+          },
+          "path": [
+            "Core",
+            "Global",
+            "Neutrals",
+            "neutral300: '#E5E5E5',"
+          ]
+        },
+        "neutral400: '#D4D4D4',": {
+          "value": "#d4d4d4",
+          "type": "color",
+          "filePath": "sd-input/src/from-figma-tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "#d4d4d4",
+            "type": "color"
+          },
+          "name": "CoreGlobalNeutralsNeutral400D4D4D4",
+          "attributes": {
+            "category": "Core",
+            "type": "Global",
+            "item": "Neutrals",
+            "subitem": "neutral400: '#D4D4D4',"
+          },
+          "path": [
+            "Core",
+            "Global",
+            "Neutrals",
+            "neutral400: '#D4D4D4',"
+          ]
+        },
+        "neutral500: '#A3A3A3',": {
+          "value": "#a3a3a3",
+          "type": "color",
+          "filePath": "sd-input/src/from-figma-tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "#a3a3a3",
+            "type": "color"
+          },
+          "name": "CoreGlobalNeutralsNeutral500A3A3A3",
+          "attributes": {
+            "category": "Core",
+            "type": "Global",
+            "item": "Neutrals",
+            "subitem": "neutral500: '#A3A3A3',"
+          },
+          "path": [
+            "Core",
+            "Global",
+            "Neutrals",
+            "neutral500: '#A3A3A3',"
+          ]
+        },
+        "neutral600: '#737373',": {
+          "value": "#737373",
+          "type": "color",
+          "filePath": "sd-input/src/from-figma-tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "#737373",
+            "type": "color"
+          },
+          "name": "CoreGlobalNeutralsNeutral600737373",
+          "attributes": {
+            "category": "Core",
+            "type": "Global",
+            "item": "Neutrals",
+            "subitem": "neutral600: '#737373',"
+          },
+          "path": [
+            "Core",
+            "Global",
+            "Neutrals",
+            "neutral600: '#737373',"
+          ]
+        },
+        "neutral700: '#525252',": {
+          "value": "#525252",
+          "type": "color",
+          "filePath": "sd-input/src/from-figma-tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "#525252",
+            "type": "color"
+          },
+          "name": "CoreGlobalNeutralsNeutral700525252",
+          "attributes": {
+            "category": "Core",
+            "type": "Global",
+            "item": "Neutrals",
+            "subitem": "neutral700: '#525252',"
+          },
+          "path": [
+            "Core",
+            "Global",
+            "Neutrals",
+            "neutral700: '#525252',"
+          ]
+        },
+        "neutral800: '#404040',": {
+          "value": "#404040",
+          "type": "color",
+          "filePath": "sd-input/src/from-figma-tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "#404040",
+            "type": "color"
+          },
+          "name": "CoreGlobalNeutralsNeutral800404040",
+          "attributes": {
+            "category": "Core",
+            "type": "Global",
+            "item": "Neutrals",
+            "subitem": "neutral800: '#404040',"
+          },
+          "path": [
+            "Core",
+            "Global",
+            "Neutrals",
+            "neutral800: '#404040',"
+          ]
+        },
+        "neutral900: '#353535',": {
+          "value": "#353535",
+          "type": "color",
+          "filePath": "sd-input/src/from-figma-tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "#353535",
+            "type": "color"
+          },
+          "name": "CoreGlobalNeutralsNeutral900353535",
+          "attributes": {
+            "category": "Core",
+            "type": "Global",
+            "item": "Neutrals",
+            "subitem": "neutral900: '#353535',"
+          },
+          "path": [
+            "Core",
+            "Global",
+            "Neutrals",
+            "neutral900: '#353535',"
+          ]
+        },
+        "neutral1000: '#171717',": {
+          "value": "#171717",
+          "type": "color",
+          "filePath": "sd-input/src/from-figma-tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "#171717",
+            "type": "color"
+          },
+          "name": "CoreGlobalNeutralsNeutral1000171717",
+          "attributes": {
+            "category": "Core",
+            "type": "Global",
+            "item": "Neutrals",
+            "subitem": "neutral1000: '#171717',"
+          },
+          "path": [
+            "Core",
+            "Global",
+            "Neutrals",
+            "neutral1000: '#171717',"
+          ]
+        }
+      }
     },
-    "globalWhite": {
-      "value": "#fff",
-      "type": "color",
-      "filePath": "sd-input/src/from-figma-tokens.json",
-      "isSource": true,
-      "original": {
-        "value": "#fff",
-        "type": "color"
+    "Primary": {
+      "Text & Dark BG - #353535": {
+        "value": "#353535",
+        "type": "color",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "#353535",
+          "type": "color"
+        },
+        "name": "CorePrimaryTextDarkBg353535",
+        "attributes": {
+          "category": "Core",
+          "type": "Primary",
+          "item": "Text & Dark BG - #353535"
+        },
+        "path": [
+          "Core",
+          "Primary",
+          "Text & Dark BG - #353535"
+        ]
       },
-      "name": "CoreGlobalWhite",
-      "attributes": {
-        "category": "Core",
-        "type": "globalWhite"
-      },
-      "path": [
-        "Core",
-        "globalWhite"
-      ]
+      "Orange": {
+        "Main - #EE7622": {
+          "value": "#ee7620",
+          "type": "color",
+          "filePath": "sd-input/src/from-figma-tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "#ee7620",
+            "type": "color"
+          },
+          "name": "CorePrimaryOrangeMainEe7622",
+          "attributes": {
+            "category": "Core",
+            "type": "Primary",
+            "item": "Orange",
+            "subitem": "Main - #EE7622"
+          },
+          "path": [
+            "Core",
+            "Primary",
+            "Orange",
+            "Main - #EE7622"
+          ]
+        },
+        "Shade 01 - #552300": {
+          "value": "#572400",
+          "type": "color",
+          "filePath": "sd-input/src/from-figma-tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "#572400",
+            "type": "color"
+          },
+          "name": "CorePrimaryOrangeShade01552300",
+          "attributes": {
+            "category": "Core",
+            "type": "Primary",
+            "item": "Orange",
+            "subitem": "Shade 01 - #552300"
+          },
+          "path": [
+            "Core",
+            "Primary",
+            "Orange",
+            "Shade 01 - #552300"
+          ]
+        },
+        "Shade 02 - #883800": {
+          "value": "#8a3900",
+          "type": "color",
+          "filePath": "sd-input/src/from-figma-tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "#8a3900",
+            "type": "color"
+          },
+          "name": "CorePrimaryOrangeShade02883800",
+          "attributes": {
+            "category": "Core",
+            "type": "Primary",
+            "item": "Orange",
+            "subitem": "Shade 02 - #883800"
+          },
+          "path": [
+            "Core",
+            "Primary",
+            "Orange",
+            "Shade 02 - #883800"
+          ]
+        },
+        "Shade 03 - #BB530A": {
+          "value": "#bd550a",
+          "type": "color",
+          "filePath": "sd-input/src/from-figma-tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "#bd550a",
+            "type": "color"
+          },
+          "name": "CorePrimaryOrangeShade03Bb530A",
+          "attributes": {
+            "category": "Core",
+            "type": "Primary",
+            "item": "Orange",
+            "subitem": "Shade 03 - #BB530A"
+          },
+          "path": [
+            "Core",
+            "Primary",
+            "Orange",
+            "Shade 03 - #BB530A"
+          ]
+        },
+        "Shade 04 - #FF9B56": {
+          "value": "#ff9d57",
+          "type": "color",
+          "filePath": "sd-input/src/from-figma-tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "#ff9d57",
+            "type": "color"
+          },
+          "name": "CorePrimaryOrangeShade04Ff9B56",
+          "attributes": {
+            "category": "Core",
+            "type": "Primary",
+            "item": "Orange",
+            "subitem": "Shade 04 - #FF9B56"
+          },
+          "path": [
+            "Core",
+            "Primary",
+            "Orange",
+            "Shade 04 - #FF9B56"
+          ]
+        },
+        "Shade 05 - #FFB887": {
+          "value": "#ffb685",
+          "type": "color",
+          "filePath": "sd-input/src/from-figma-tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "#ffb685",
+            "type": "color"
+          },
+          "name": "CorePrimaryOrangeShade05Ffb887",
+          "attributes": {
+            "category": "Core",
+            "type": "Primary",
+            "item": "Orange",
+            "subitem": "Shade 05 - #FFB887"
+          },
+          "path": [
+            "Core",
+            "Primary",
+            "Orange",
+            "Shade 05 - #FFB887"
+          ]
+        },
+        "Shade 06 - #FFD5B8": {
+          "value": "#ffd5b8",
+          "type": "color",
+          "filePath": "sd-input/src/from-figma-tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "#ffd5b8",
+            "type": "color"
+          },
+          "name": "CorePrimaryOrangeShade06Ffd5B8",
+          "attributes": {
+            "category": "Core",
+            "type": "Primary",
+            "item": "Orange",
+            "subitem": "Shade 06 - #FFD5B8"
+          },
+          "path": [
+            "Core",
+            "Primary",
+            "Orange",
+            "Shade 06 - #FFD5B8"
+          ]
+        }
+      }
     },
-    "globalBlack": {
-      "value": "#171717",
-      "type": "color",
-      "filePath": "sd-input/src/from-figma-tokens.json",
-      "isSource": true,
-      "original": {
-        "value": "#171717",
-        "type": "color"
-      },
-      "name": "CoreGlobalBlack",
-      "attributes": {
-        "category": "Core",
-        "type": "globalBlack"
-      },
-      "path": [
-        "Core",
-        "globalBlack"
-      ]
+    "Secondary": {
+      "Amber": {
+        "Main - #F59C0D": {
+          "value": "#f59d0f",
+          "type": "color",
+          "filePath": "sd-input/src/from-figma-tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "#f59d0f",
+            "type": "color"
+          },
+          "name": "CoreSecondaryAmberMainF59C0D",
+          "attributes": {
+            "category": "Core",
+            "type": "Secondary",
+            "item": "Amber",
+            "subitem": "Main - #F59C0D"
+          },
+          "path": [
+            "Core",
+            "Secondary",
+            "Amber",
+            "Main - #F59C0D"
+          ]
+        },
+        "Shade 01 - #5C3900": {
+          "value": "#5c3900",
+          "type": "color",
+          "filePath": "sd-input/src/from-figma-tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "#5c3900",
+            "type": "color"
+          },
+          "name": "CoreSecondaryAmberShade015C3900",
+          "attributes": {
+            "category": "Core",
+            "type": "Secondary",
+            "item": "Amber",
+            "subitem": "Shade 01 - #5C3900"
+          },
+          "path": [
+            "Core",
+            "Secondary",
+            "Amber",
+            "Shade 01 - #5C3900"
+          ]
+        },
+        "Shade 02 - #8F5800": {
+          "value": "#8f5800",
+          "type": "color",
+          "filePath": "sd-input/src/from-figma-tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "#8f5800",
+            "type": "color"
+          },
+          "name": "CoreSecondaryAmberShade028F5800",
+          "attributes": {
+            "category": "Core",
+            "type": "Secondary",
+            "item": "Amber",
+            "subitem": "Shade 02 - #8F5800"
+          },
+          "path": [
+            "Core",
+            "Secondary",
+            "Amber",
+            "Shade 02 - #8F5800"
+          ]
+        },
+        "Shade 03 - #C27800": {
+          "value": "#c27800",
+          "type": "color",
+          "filePath": "sd-input/src/from-figma-tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "#c27800",
+            "type": "color"
+          },
+          "name": "CoreSecondaryAmberShade03C27800",
+          "attributes": {
+            "category": "Core",
+            "type": "Secondary",
+            "item": "Amber",
+            "subitem": "Shade 03 - #C27800"
+          },
+          "path": [
+            "Core",
+            "Secondary",
+            "Amber",
+            "Shade 03 - #C27800"
+          ]
+        },
+        "Shade 04 - #FFB744": {
+          "value": "#ffb742",
+          "type": "color",
+          "filePath": "sd-input/src/from-figma-tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "#ffb742",
+            "type": "color"
+          },
+          "name": "CoreSecondaryAmberShade04Ffb744",
+          "attributes": {
+            "category": "Core",
+            "type": "Secondary",
+            "item": "Amber",
+            "subitem": "Shade 04 - #FFB744"
+          },
+          "path": [
+            "Core",
+            "Secondary",
+            "Amber",
+            "Shade 04 - #FFB744"
+          ]
+        },
+        "Shade 05 - #FFCC7A": {
+          "value": "#ffcc7a",
+          "type": "color",
+          "filePath": "sd-input/src/from-figma-tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "#ffcc7a",
+            "type": "color"
+          },
+          "name": "CoreSecondaryAmberShade05Ffcc7A",
+          "attributes": {
+            "category": "Core",
+            "type": "Secondary",
+            "item": "Amber",
+            "subitem": "Shade 05 - #FFCC7A"
+          },
+          "path": [
+            "Core",
+            "Secondary",
+            "Amber",
+            "Shade 05 - #FFCC7A"
+          ]
+        },
+        "Shade 06 - #FFE1B0": {
+          "value": "#ffe2b2",
+          "type": "color",
+          "filePath": "sd-input/src/from-figma-tokens.json",
+          "isSource": true,
+          "original": {
+            "value": "#ffe2b2",
+            "type": "color"
+          },
+          "name": "CoreSecondaryAmberShade06Ffe1B0",
+          "attributes": {
+            "category": "Core",
+            "type": "Secondary",
+            "item": "Amber",
+            "subitem": "Shade 06 - #FFE1B0"
+          },
+          "path": [
+            "Core",
+            "Secondary",
+            "Amber",
+            "Shade 06 - #FFE1B0"
+          ]
+        }
+      }
     },
-    "goatPrimary": {
-      "value": "#ee7622",
-      "type": "color",
-      "filePath": "sd-input/src/from-figma-tokens.json",
-      "isSource": true,
-      "original": {
-        "value": "#ee7622",
-        "type": "color"
+    "Gradient": {
+      "Orange > Amber - #EE7622 > #F59C0D": {
+        "value": "linear-gradient(90deg, #ee7622 0%, #f6a705 100%)",
+        "type": "color",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "linear-gradient(90deg, #ee7622 0%, #f6a705 100%)",
+          "type": "color"
+        },
+        "name": "CoreGradientOrangeAmberEe7622F59C0D",
+        "attributes": {
+          "category": "Core",
+          "type": "Gradient",
+          "item": "Orange > Amber - #EE7622 > #F59C0D"
+        },
+        "path": [
+          "Core",
+          "Gradient",
+          "Orange > Amber - #EE7622 > #F59C0D"
+        ]
       },
-      "name": "CoreGoatPrimary",
-      "attributes": {
-        "category": "Core",
-        "type": "goatPrimary"
+      "Orange > Pink - #EE7620 > #F131BC": {
+        "value": "linear-gradient(119deg, #ee7620 0%, #f131bc 100%)",
+        "type": "color",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "linear-gradient(119deg, #ee7620 0%, #f131bc 100%)",
+          "type": "color"
+        },
+        "name": "CoreGradientOrangePinkEe7620F131Bc",
+        "attributes": {
+          "category": "Core",
+          "type": "Gradient",
+          "item": "Orange > Pink - #EE7620 > #F131BC"
+        },
+        "path": [
+          "Core",
+          "Gradient",
+          "Orange > Pink - #EE7620 > #F131BC"
+        ]
       },
-      "path": [
-        "Core",
-        "goatPrimary"
-      ]
+      "Orange > Pink > Purple - #F79426, #F131BC, #5212E4": {
+        "value": "linear-gradient(90deg, #f79426 0%, #f131bc 42.35%, #5212e4 100%)",
+        "type": "color",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "linear-gradient(90deg, #f79426 0%, #f131bc 42.35%, #5212e4 100%)",
+          "type": "color"
+        },
+        "name": "CoreGradientOrangePinkPurpleF79426F131Bc5212E4",
+        "attributes": {
+          "category": "Core",
+          "type": "Gradient",
+          "item": "Orange > Pink > Purple - #F79426, #F131BC, #5212E4"
+        },
+        "path": [
+          "Core",
+          "Gradient",
+          "Orange > Pink > Purple - #F79426, #F131BC, #5212E4"
+        ]
+      },
+      "Neutral 6-9 - #737373 > #353535": {
+        "value": "linear-gradient(90deg, #737373 0%, #353535 100%)",
+        "type": "color",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "linear-gradient(90deg, #737373 0%, #353535 100%)",
+          "type": "color"
+        },
+        "name": "CoreGradientNeutral69737373353535",
+        "attributes": {
+          "category": "Core",
+          "type": "Gradient",
+          "item": "Neutral 6-9 - #737373 > #353535"
+        },
+        "path": [
+          "Core",
+          "Gradient",
+          "Neutral 6-9 - #737373 > #353535"
+        ]
+      },
+      "Dark Grey": {
+        "value": "linear-gradient(90deg, #414141 0%, #363636 100%)",
+        "type": "color",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "linear-gradient(90deg, #414141 0%, #363636 100%)",
+          "type": "color"
+        },
+        "name": "CoreGradientDarkGrey",
+        "attributes": {
+          "category": "Core",
+          "type": "Gradient",
+          "item": "Dark Grey"
+        },
+        "path": [
+          "Core",
+          "Gradient",
+          "Dark Grey"
+        ]
+      }
     },
-    "neutral400": {
-      "value": "#D4D4D4",
-      "type": "color",
-      "filePath": "sd-input/src/from-figma-tokens.json",
-      "isSource": true,
-      "original": {
-        "value": "#D4D4D4",
-        "type": "color"
+    "Success": {
+      "Main colour - #5BB99C": {
+        "value": "#5bb99c",
+        "type": "color",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "#5bb99c",
+          "type": "color"
+        },
+        "name": "CoreSuccessMainColour5Bb99C",
+        "attributes": {
+          "category": "Core",
+          "type": "Success",
+          "item": "Main colour - #5BB99C"
+        },
+        "path": [
+          "Core",
+          "Success",
+          "Main colour - #5BB99C"
+        ]
       },
-      "name": "CoreNeutral400",
-      "attributes": {
-        "category": "Core",
-        "type": "neutral400"
+      "Shade 01 - #296754": {
+        "value": "#296754",
+        "type": "color",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "#296754",
+          "type": "color"
+        },
+        "name": "CoreSuccessShade01296754",
+        "attributes": {
+          "category": "Core",
+          "type": "Success",
+          "item": "Shade 01 - #296754"
+        },
+        "path": [
+          "Core",
+          "Success",
+          "Shade 01 - #296754"
+        ]
       },
-      "path": [
-        "Core",
-        "neutral400"
-      ]
+      "Shade 02 - #409078": {
+        "value": "#409078",
+        "type": "color",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "#409078",
+          "type": "color"
+        },
+        "name": "CoreSuccessShade02409078",
+        "attributes": {
+          "category": "Core",
+          "type": "Success",
+          "item": "Shade 02 - #409078"
+        },
+        "path": [
+          "Core",
+          "Success",
+          "Shade 02 - #409078"
+        ]
+      },
+      "Shade 03 - #79E1C2": {
+        "value": "#79e1c2",
+        "type": "color",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "#79e1c2",
+          "type": "color"
+        },
+        "name": "CoreSuccessShade0379E1C2",
+        "attributes": {
+          "category": "Core",
+          "type": "Success",
+          "item": "Shade 03 - #79E1C2"
+        },
+        "path": [
+          "Core",
+          "Success",
+          "Shade 03 - #79E1C2"
+        ]
+      },
+      "Shade 04 - #95FFDF": {
+        "value": "#95ffdf",
+        "type": "color",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "#95ffdf",
+          "type": "color"
+        },
+        "name": "CoreSuccessShade0495Ffdf",
+        "attributes": {
+          "category": "Core",
+          "type": "Success",
+          "item": "Shade 04 - #95FFDF"
+        },
+        "path": [
+          "Core",
+          "Success",
+          "Shade 04 - #95FFDF"
+        ]
+      },
+      "Shade 05 - #B5FFE9": {
+        "value": "#b5ffe9",
+        "type": "color",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "#b5ffe9",
+          "type": "color"
+        },
+        "name": "CoreSuccessShade05B5Ffe9",
+        "attributes": {
+          "category": "Core",
+          "type": "Success",
+          "item": "Shade 05 - #B5FFE9"
+        },
+        "path": [
+          "Core",
+          "Success",
+          "Shade 05 - #B5FFE9"
+        ]
+      },
+      "Shade 06 - #D5FFF2": {
+        "value": "#d5fff2",
+        "type": "color",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "#d5fff2",
+          "type": "color"
+        },
+        "name": "CoreSuccessShade06D5Fff2",
+        "attributes": {
+          "category": "Core",
+          "type": "Success",
+          "item": "Shade 06 - #D5FFF2"
+        },
+        "path": [
+          "Core",
+          "Success",
+          "Shade 06 - #D5FFF2"
+        ]
+      }
     },
-    "warning400": {
-      "value": "#A71010",
-      "type": "color",
-      "filePath": "sd-input/src/from-figma-tokens.json",
-      "isSource": true,
-      "original": {
-        "value": "#A71010",
-        "type": "color"
+    "Supporting 01": {
+      "Main colour - #D02121": {
+        "value": "#2098ee",
+        "type": "color",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "#2098ee",
+          "type": "color"
+        },
+        "name": "CoreSupporting01MainColourD02121",
+        "attributes": {
+          "category": "Core",
+          "type": "Supporting 01",
+          "item": "Main colour - #D02121"
+        },
+        "path": [
+          "Core",
+          "Supporting 01",
+          "Main colour - #D02121"
+        ]
       },
-      "name": "CoreWarning400",
-      "attributes": {
-        "category": "Core",
-        "type": "warning400"
+      "Shade 01 - #003255": {
+        "value": "#003255",
+        "type": "color",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "#003255",
+          "type": "color"
+        },
+        "name": "CoreSupporting01Shade01003255",
+        "attributes": {
+          "category": "Core",
+          "type": "Supporting 01",
+          "item": "Shade 01 - #003255"
+        },
+        "path": [
+          "Core",
+          "Supporting 01",
+          "Shade 01 - #003255"
+        ]
       },
-      "path": [
-        "Core",
-        "warning400"
-      ]
+      "Shade 02 - #004F88": {
+        "value": "#004f88",
+        "type": "color",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "#004f88",
+          "type": "color"
+        },
+        "name": "CoreSupporting01Shade02004F88",
+        "attributes": {
+          "category": "Core",
+          "type": "Supporting 01",
+          "item": "Shade 02 - #004F88"
+        },
+        "path": [
+          "Core",
+          "Supporting 01",
+          "Shade 02 - #004F88"
+        ]
+      },
+      "Shade 03 - #0870BB": {
+        "value": "#0870bb",
+        "type": "color",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "#0870bb",
+          "type": "color"
+        },
+        "name": "CoreSupporting01Shade030870Bb",
+        "attributes": {
+          "category": "Core",
+          "type": "Supporting 01",
+          "item": "Shade 03 - #0870BB"
+        },
+        "path": [
+          "Core",
+          "Supporting 01",
+          "Shade 03 - #0870BB"
+        ]
+      },
+      "Shade 04 - #F93737": {
+        "value": "#54b7ff",
+        "type": "color",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "#54b7ff",
+          "type": "color"
+        },
+        "name": "CoreSupporting01Shade04F93737",
+        "attributes": {
+          "category": "Core",
+          "type": "Supporting 01",
+          "item": "Shade 04 - #F93737"
+        },
+        "path": [
+          "Core",
+          "Supporting 01",
+          "Shade 04 - #F93737"
+        ]
+      },
+      "Shade 05 - #85CCFF": {
+        "value": "#85ccff",
+        "type": "color",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "#85ccff",
+          "type": "color"
+        },
+        "name": "CoreSupporting01Shade0585Ccff",
+        "attributes": {
+          "category": "Core",
+          "type": "Supporting 01",
+          "item": "Shade 05 - #85CCFF"
+        },
+        "path": [
+          "Core",
+          "Supporting 01",
+          "Shade 05 - #85CCFF"
+        ]
+      },
+      "Shade 06 - #B7E1FF": {
+        "value": "#b7e1ff",
+        "type": "color",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "#b7e1ff",
+          "type": "color"
+        },
+        "name": "CoreSupporting01Shade06B7E1Ff",
+        "attributes": {
+          "category": "Core",
+          "type": "Supporting 01",
+          "item": "Shade 06 - #B7E1FF"
+        },
+        "path": [
+          "Core",
+          "Supporting 01",
+          "Shade 06 - #B7E1FF"
+        ]
+      }
     },
-    "success": {
-      "value": "#6DC2A9",
-      "type": "color",
-      "filePath": "sd-input/src/from-figma-tokens.json",
-      "isSource": true,
-      "original": {
-        "value": "#6DC2A9",
-        "type": "color"
+    "Supporting 02": {
+      "Main colour - #F437F8": {
+        "value": "#f437f8",
+        "type": "color",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "#f437f8",
+          "type": "color"
+        },
+        "name": "CoreSupporting02MainColourF437F8",
+        "attributes": {
+          "category": "Core",
+          "type": "Supporting 02",
+          "item": "Main colour - #F437F8"
+        },
+        "path": [
+          "Core",
+          "Supporting 02",
+          "Main colour - #F437F8"
+        ]
       },
-      "name": "CoreSuccess",
-      "attributes": {
-        "category": "Core",
-        "type": "success"
+      "Shade 01 - #530054": {
+        "value": "#530054",
+        "type": "color",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "#530054",
+          "type": "color"
+        },
+        "name": "CoreSupporting02Shade01530054",
+        "attributes": {
+          "category": "Core",
+          "type": "Supporting 02",
+          "item": "Shade 01 - #530054"
+        },
+        "path": [
+          "Core",
+          "Supporting 02",
+          "Shade 01 - #530054"
+        ]
       },
-      "path": [
-        "Core",
-        "success"
-      ]
+      "Shade 02 - #7B047D": {
+        "value": "#7b047d",
+        "type": "color",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "#7b047d",
+          "type": "color"
+        },
+        "name": "CoreSupporting02Shade027B047D",
+        "attributes": {
+          "category": "Core",
+          "type": "Supporting 02",
+          "item": "Shade 02 - #7B047D"
+        },
+        "path": [
+          "Core",
+          "Supporting 02",
+          "Shade 02 - #7B047D"
+        ]
+      },
+      "Shade 03 - #A310A6": {
+        "value": "#a310a6",
+        "type": "color",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "#a310a6",
+          "type": "color"
+        },
+        "name": "CoreSupporting02Shade03A310A6",
+        "attributes": {
+          "category": "Core",
+          "type": "Supporting 02",
+          "item": "Shade 03 - #A310A6"
+        },
+        "path": [
+          "Core",
+          "Supporting 02",
+          "Shade 03 - #A310A6"
+        ]
+      },
+      "Shade 04 - #CB21CF": {
+        "value": "#cb21cf",
+        "type": "color",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "#cb21cf",
+          "type": "color"
+        },
+        "name": "CoreSupporting02Shade04Cb21Cf",
+        "attributes": {
+          "category": "Core",
+          "type": "Supporting 02",
+          "item": "Shade 04 - #CB21CF"
+        },
+        "path": [
+          "Core",
+          "Supporting 02",
+          "Shade 04 - #CB21CF"
+        ]
+      },
+      "Shade 05 - #FC74FF": {
+        "value": "#fc74ff",
+        "type": "color",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "#fc74ff",
+          "type": "color"
+        },
+        "name": "CoreSupporting02Shade05Fc74Ff",
+        "attributes": {
+          "category": "Core",
+          "type": "Supporting 02",
+          "item": "Shade 05 - #FC74FF"
+        },
+        "path": [
+          "Core",
+          "Supporting 02",
+          "Shade 05 - #FC74FF"
+        ]
+      },
+      "Shade 06 - #FDAFFF": {
+        "value": "#fdafff",
+        "type": "color",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "#fdafff",
+          "type": "color"
+        },
+        "name": "CoreSupporting02Shade06Fdafff",
+        "attributes": {
+          "category": "Core",
+          "type": "Supporting 02",
+          "item": "Shade 06 - #FDAFFF"
+        },
+        "path": [
+          "Core",
+          "Supporting 02",
+          "Shade 06 - #FDAFFF"
+        ]
+      }
     },
-    "supporting2": {
-      "value": "#F437F8",
-      "type": "color",
-      "filePath": "sd-input/src/from-figma-tokens.json",
-      "isSource": true,
-      "original": {
-        "value": "#F437F8",
-        "type": "color"
+    "Supporting 03": {
+      "Main colour - #7620EE": {
+        "value": "#7620ee",
+        "type": "color",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "#7620ee",
+          "type": "color"
+        },
+        "name": "CoreSupporting03MainColour7620Ee",
+        "attributes": {
+          "category": "Core",
+          "type": "Supporting 03",
+          "item": "Main colour - #7620EE"
+        },
+        "path": [
+          "Core",
+          "Supporting 03",
+          "Main colour - #7620EE"
+        ]
       },
-      "name": "CoreSupporting2",
-      "attributes": {
-        "category": "Core",
-        "type": "supporting2"
+      "Shade 01 - #240055": {
+        "value": "#240055",
+        "type": "color",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "#240055",
+          "type": "color"
+        },
+        "name": "CoreSupporting03Shade01240055",
+        "attributes": {
+          "category": "Core",
+          "type": "Supporting 03",
+          "item": "Shade 01 - #240055"
+        },
+        "path": [
+          "Core",
+          "Supporting 03",
+          "Shade 01 - #240055"
+        ]
       },
-      "path": [
-        "Core",
-        "supporting2"
-      ]
+      "Shade 02 - #390088": {
+        "value": "#390088",
+        "type": "color",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "#390088",
+          "type": "color"
+        },
+        "name": "CoreSupporting03Shade02390088",
+        "attributes": {
+          "category": "Core",
+          "type": "Supporting 03",
+          "item": "Shade 02 - #390088"
+        },
+        "path": [
+          "Core",
+          "Supporting 03",
+          "Shade 02 - #390088"
+        ]
+      },
+      "Shade 03 - #5308BB": {
+        "value": "#5308bb",
+        "type": "color",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "#5308bb",
+          "type": "color"
+        },
+        "name": "CoreSupporting03Shade035308Bb",
+        "attributes": {
+          "category": "Core",
+          "type": "Supporting 03",
+          "item": "Shade 03 - #5308BB"
+        },
+        "path": [
+          "Core",
+          "Supporting 03",
+          "Shade 03 - #5308BB"
+        ]
+      },
+      "Shade 04 - #9B54FF": {
+        "value": "#9b54ff",
+        "type": "color",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "#9b54ff",
+          "type": "color"
+        },
+        "name": "CoreSupporting03Shade049B54Ff",
+        "attributes": {
+          "category": "Core",
+          "type": "Supporting 03",
+          "item": "Shade 04 - #9B54FF"
+        },
+        "path": [
+          "Core",
+          "Supporting 03",
+          "Shade 04 - #9B54FF"
+        ]
+      },
+      "Shade 05 - #B885FF": {
+        "value": "#b885ff",
+        "type": "color",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "#b885ff",
+          "type": "color"
+        },
+        "name": "CoreSupporting03Shade05B885Ff",
+        "attributes": {
+          "category": "Core",
+          "type": "Supporting 03",
+          "item": "Shade 05 - #B885FF"
+        },
+        "path": [
+          "Core",
+          "Supporting 03",
+          "Shade 05 - #B885FF"
+        ]
+      },
+      "Shade 06 - #D5B7FF": {
+        "value": "#d5b7ff",
+        "type": "color",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "#d5b7ff",
+          "type": "color"
+        },
+        "name": "CoreSupporting03Shade06D5B7Ff",
+        "attributes": {
+          "category": "Core",
+          "type": "Supporting 03",
+          "item": "Shade 06 - #D5B7FF"
+        },
+        "path": [
+          "Core",
+          "Supporting 03",
+          "Shade 06 - #D5B7FF"
+        ]
+      }
     },
-    "space0": {
-      "value": "0",
-      "type": "spacing",
-      "filePath": "sd-input/src/from-figma-tokens.json",
-      "isSource": true,
-      "original": {
-        "value": "0",
-        "type": "spacing"
+    "Destructive": {
+      "Main colour - #D02121": {
+        "value": "#d02121",
+        "type": "color",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "#d02121",
+          "type": "color"
+        },
+        "name": "CoreDestructiveMainColourD02121",
+        "attributes": {
+          "category": "Core",
+          "type": "Destructive",
+          "item": "Main colour - #D02121"
+        },
+        "path": [
+          "Core",
+          "Destructive",
+          "Main colour - #D02121"
+        ]
       },
-      "name": "CoreSpace0",
-      "attributes": {
-        "category": "Core",
-        "type": "space0"
+      "Shade 01 - #550000": {
+        "value": "#550000",
+        "type": "color",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "#550000",
+          "type": "color"
+        },
+        "name": "CoreDestructiveShade01550000",
+        "attributes": {
+          "category": "Core",
+          "type": "Destructive",
+          "item": "Shade 01 - #550000"
+        },
+        "path": [
+          "Core",
+          "Destructive",
+          "Shade 01 - #550000"
+        ]
       },
-      "path": [
-        "Core",
-        "space0"
-      ]
-    },
-    "space1": {
-      "value": "4px",
-      "type": "spacing",
-      "filePath": "sd-input/src/from-figma-tokens.json",
-      "isSource": true,
-      "original": {
-        "value": "4px",
-        "type": "spacing"
+      "Shade 02 - #7E0404": {
+        "value": "#7e0404",
+        "type": "color",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "#7e0404",
+          "type": "color"
+        },
+        "name": "CoreDestructiveShade027E0404",
+        "attributes": {
+          "category": "Core",
+          "type": "Destructive",
+          "item": "Shade 02 - #7E0404"
+        },
+        "path": [
+          "Core",
+          "Destructive",
+          "Shade 02 - #7E0404"
+        ]
       },
-      "name": "CoreSpace1",
-      "attributes": {
-        "category": "Core",
-        "type": "space1"
+      "Shade 03 - #A71010": {
+        "value": "#a71010",
+        "type": "color",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "#a71010",
+          "type": "color"
+        },
+        "name": "CoreDestructiveShade03A71010",
+        "attributes": {
+          "category": "Core",
+          "type": "Destructive",
+          "item": "Shade 03 - #A71010"
+        },
+        "path": [
+          "Core",
+          "Destructive",
+          "Shade 03 - #A71010"
+        ]
       },
-      "path": [
-        "Core",
-        "space1"
-      ]
-    },
-    "space2": {
-      "value": "8px",
-      "type": "spacing",
-      "filePath": "sd-input/src/from-figma-tokens.json",
-      "isSource": true,
-      "original": {
-        "value": "8px",
-        "type": "spacing"
+      "Shade 04 - #F93737": {
+        "value": "#f93737",
+        "type": "color",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "#f93737",
+          "type": "color"
+        },
+        "name": "CoreDestructiveShade04F93737",
+        "attributes": {
+          "category": "Core",
+          "type": "Destructive",
+          "item": "Shade 04 - #F93737"
+        },
+        "path": [
+          "Core",
+          "Destructive",
+          "Shade 04 - #F93737"
+        ]
       },
-      "name": "CoreSpace2",
-      "attributes": {
-        "category": "Core",
-        "type": "space2"
+      "Shade 05 - #FFAFAF": {
+        "value": "#ff7474",
+        "type": "color",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "#ff7474",
+          "type": "color"
+        },
+        "name": "CoreDestructiveShade05Ffafaf",
+        "attributes": {
+          "category": "Core",
+          "type": "Destructive",
+          "item": "Shade 05 - #FFAFAF"
+        },
+        "path": [
+          "Core",
+          "Destructive",
+          "Shade 05 - #FFAFAF"
+        ]
       },
-      "path": [
-        "Core",
-        "space2"
-      ]
-    },
-    "space3": {
-      "value": "16px",
-      "type": "spacing",
-      "filePath": "sd-input/src/from-figma-tokens.json",
-      "isSource": true,
-      "original": {
-        "value": "16px",
-        "type": "spacing"
-      },
-      "name": "CoreSpace3",
-      "attributes": {
-        "category": "Core",
-        "type": "space3"
-      },
-      "path": [
-        "Core",
-        "space3"
-      ]
-    },
-    "space9": {
-      "value": "80px",
-      "type": "spacing",
-      "filePath": "sd-input/src/from-figma-tokens.json",
-      "isSource": true,
-      "original": {
-        "value": "80px",
-        "type": "spacing"
-      },
-      "name": "CoreSpace9",
-      "attributes": {
-        "category": "Core",
-        "type": "space9"
-      },
-      "path": [
-        "Core",
-        "space9"
-      ]
-    },
-    "fontSize0": {
-      "value": "10px",
-      "type": "fontSizes",
-      "filePath": "sd-input/src/from-figma-tokens.json",
-      "isSource": true,
-      "original": {
-        "value": "10px",
-        "type": "fontSizes"
-      },
-      "name": "CoreFontSize0",
-      "attributes": {
-        "category": "Core",
-        "type": "fontSize0"
-      },
-      "path": [
-        "Core",
-        "fontSize0"
-      ]
-    },
-    "borderRadius3": {
-      "value": "20px",
-      "type": "borderRadius",
-      "filePath": "sd-input/src/from-figma-tokens.json",
-      "isSource": true,
-      "original": {
-        "value": "20px",
-        "type": "borderRadius"
-      },
-      "name": "CoreBorderRadius3",
-      "attributes": {
-        "category": "Core",
-        "type": "borderRadius3"
-      },
-      "path": [
-        "Core",
-        "borderRadius3"
-      ]
-    },
-    "primary-btn-v-pad": {
-      "value": "$space1",
-      "type": "spacing",
-      "filePath": "sd-input/src/from-figma-tokens.json",
-      "isSource": true,
-      "original": {
-        "value": "$space1",
-        "type": "spacing"
-      },
-      "name": "CorePrimaryBtnVPad",
-      "attributes": {
-        "category": "Core",
-        "type": "primary-btn-v-pad"
-      },
-      "path": [
-        "Core",
-        "primary-btn-v-pad"
-      ]
-    },
-    "primary-btn-h-pad": {
-      "value": "$space3",
-      "type": "spacing",
-      "filePath": "sd-input/src/from-figma-tokens.json",
-      "isSource": true,
-      "original": {
-        "value": "$space3",
-        "type": "spacing"
-      },
-      "name": "CorePrimaryBtnHPad",
-      "attributes": {
-        "category": "Core",
-        "type": "primary-btn-h-pad"
-      },
-      "path": [
-        "Core",
-        "primary-btn-h-pad"
-      ]
-    }
-  },
-  "dark": {
-    "bvn": {
-      "value": "#988b8b",
-      "type": "color",
-      "filePath": "sd-input/src/from-figma-tokens.json",
-      "isSource": true,
-      "original": {
-        "value": "#988b8b",
-        "type": "color"
-      },
-      "name": "DarkBvn",
-      "attributes": {
-        "category": "dark",
-        "type": "bvn"
-      },
-      "path": [
-        "dark",
-        "bvn"
-      ]
-    },
-    "blue new": {
-      "value": "#18395e",
-      "type": "color",
-      "filePath": "sd-input/src/from-figma-tokens.json",
-      "isSource": true,
-      "original": {
-        "value": "#18395e",
-        "type": "color"
-      },
-      "name": "DarkBlueNew",
-      "attributes": {
-        "category": "dark",
-        "type": "blue new"
-      },
-      "path": [
-        "dark",
-        "blue new"
-      ]
+      "Shade 06 - #FFAFAF": {
+        "value": "#ffafaf",
+        "type": "color",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "#ffafaf",
+          "type": "color"
+        },
+        "name": "CoreDestructiveShade06Ffafaf",
+        "attributes": {
+          "category": "Core",
+          "type": "Destructive",
+          "item": "Shade 06 - #FFAFAF"
+        },
+        "path": [
+          "Core",
+          "Destructive",
+          "Shade 06 - #FFAFAF"
+        ]
+      }
     }
   },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
-      "Core",
-      "dark"
+      "Core"
     ]
   }
 };
