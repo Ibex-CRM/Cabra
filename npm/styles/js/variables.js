@@ -70,7 +70,7 @@ module.exports = {
       }
     },
     "neutral": {
-      "100": {
+      "s100": {
         "value": "#fafafa",
         "type": "color",
         "filePath": "sd-input/src/from-figma-tokens.json",
@@ -79,19 +79,19 @@ module.exports = {
           "value": "#fafafa",
           "type": "color"
         },
-        "name": "CoreNeutral100",
+        "name": "CoreNeutralS100",
         "attributes": {
           "category": "Core",
           "type": "neutral",
-          "item": "100"
+          "item": "s100"
         },
         "path": [
           "Core",
           "neutral",
-          "100"
+          "s100"
         ]
       },
-      "200": {
+      "s200": {
         "value": "#f5f5f5",
         "type": "color",
         "filePath": "sd-input/src/from-figma-tokens.json",
@@ -100,19 +100,19 @@ module.exports = {
           "value": "#f5f5f5",
           "type": "color"
         },
-        "name": "CoreNeutral200",
+        "name": "CoreNeutralS200",
         "attributes": {
           "category": "Core",
           "type": "neutral",
-          "item": "200"
+          "item": "s200"
         },
         "path": [
           "Core",
           "neutral",
-          "200"
+          "s200"
         ]
       },
-      "300": {
+      "s300": {
         "value": "#e5e5e5",
         "type": "color",
         "filePath": "sd-input/src/from-figma-tokens.json",
@@ -121,19 +121,19 @@ module.exports = {
           "value": "#e5e5e5",
           "type": "color"
         },
-        "name": "CoreNeutral300",
+        "name": "CoreNeutralS300",
         "attributes": {
           "category": "Core",
           "type": "neutral",
-          "item": "300"
+          "item": "s300"
         },
         "path": [
           "Core",
           "neutral",
-          "300"
+          "s300"
         ]
       },
-      "400": {
+      "s400": {
         "value": "#d4d4d4",
         "type": "color",
         "filePath": "sd-input/src/from-figma-tokens.json",
@@ -142,19 +142,19 @@ module.exports = {
           "value": "#d4d4d4",
           "type": "color"
         },
-        "name": "CoreNeutral400",
+        "name": "CoreNeutralS400",
         "attributes": {
           "category": "Core",
           "type": "neutral",
-          "item": "400"
+          "item": "s400"
         },
         "path": [
           "Core",
           "neutral",
-          "400"
+          "s400"
         ]
       },
-      "500": {
+      "s500": {
         "value": "#a3a3a3",
         "type": "color",
         "filePath": "sd-input/src/from-figma-tokens.json",
@@ -163,19 +163,19 @@ module.exports = {
           "value": "#a3a3a3",
           "type": "color"
         },
-        "name": "CoreNeutral500",
+        "name": "CoreNeutralS500",
         "attributes": {
           "category": "Core",
           "type": "neutral",
-          "item": "500"
+          "item": "s500"
         },
         "path": [
           "Core",
           "neutral",
-          "500"
+          "s500"
         ]
       },
-      "600": {
+      "s600": {
         "value": "#737373",
         "type": "color",
         "filePath": "sd-input/src/from-figma-tokens.json",
@@ -184,19 +184,19 @@ module.exports = {
           "value": "#737373",
           "type": "color"
         },
-        "name": "CoreNeutral600",
+        "name": "CoreNeutralS600",
         "attributes": {
           "category": "Core",
           "type": "neutral",
-          "item": "600"
+          "item": "s600"
         },
         "path": [
           "Core",
           "neutral",
-          "600"
+          "s600"
         ]
       },
-      "700": {
+      "s700": {
         "value": "#525252",
         "type": "color",
         "filePath": "sd-input/src/from-figma-tokens.json",
@@ -205,19 +205,19 @@ module.exports = {
           "value": "#525252",
           "type": "color"
         },
-        "name": "CoreNeutral700",
+        "name": "CoreNeutralS700",
         "attributes": {
           "category": "Core",
           "type": "neutral",
-          "item": "700"
+          "item": "s700"
         },
         "path": [
           "Core",
           "neutral",
-          "700"
+          "s700"
         ]
       },
-      "800": {
+      "s800": {
         "value": "#404040",
         "type": "color",
         "filePath": "sd-input/src/from-figma-tokens.json",
@@ -226,19 +226,19 @@ module.exports = {
           "value": "#404040",
           "type": "color"
         },
-        "name": "CoreNeutral800",
+        "name": "CoreNeutralS800",
         "attributes": {
           "category": "Core",
           "type": "neutral",
-          "item": "800"
+          "item": "s800"
         },
         "path": [
           "Core",
           "neutral",
-          "800"
+          "s800"
         ]
       },
-      "900": {
+      "s900": {
         "value": "#353535",
         "type": "color",
         "filePath": "sd-input/src/from-figma-tokens.json",
@@ -247,19 +247,19 @@ module.exports = {
           "value": "#353535",
           "type": "color"
         },
-        "name": "CoreNeutral900",
+        "name": "CoreNeutralS900",
         "attributes": {
           "category": "Core",
           "type": "neutral",
-          "item": "900"
+          "item": "s900"
         },
         "path": [
           "Core",
           "neutral",
-          "900"
+          "s900"
         ]
       },
-      "1000": {
+      "s1000": {
         "value": "#171717",
         "type": "color",
         "filePath": "sd-input/src/from-figma-tokens.json",
@@ -268,21 +268,21 @@ module.exports = {
           "value": "#171717",
           "type": "color"
         },
-        "name": "CoreNeutral1000",
+        "name": "CoreNeutralS1000",
         "attributes": {
           "category": "Core",
           "type": "neutral",
-          "item": "1000"
+          "item": "s1000"
         },
         "path": [
           "Core",
           "neutral",
-          "1000"
+          "s1000"
         ]
       }
     },
     "primary": {
-      "100": {
+      "s100": {
         "value": "#ffd5b8",
         "type": "color",
         "filePath": "sd-input/src/from-figma-tokens.json",
@@ -291,19 +291,19 @@ module.exports = {
           "value": "#ffd5b8",
           "type": "color"
         },
-        "name": "CorePrimary100",
+        "name": "CorePrimaryS100",
         "attributes": {
           "category": "Core",
           "type": "primary",
-          "item": "100"
+          "item": "s100"
         },
         "path": [
           "Core",
           "primary",
-          "100"
+          "s100"
         ]
       },
-      "200": {
+      "s200": {
         "value": "#ffb685",
         "type": "color",
         "filePath": "sd-input/src/from-figma-tokens.json",
@@ -312,19 +312,19 @@ module.exports = {
           "value": "#ffb685",
           "type": "color"
         },
-        "name": "CorePrimary200",
+        "name": "CorePrimaryS200",
         "attributes": {
           "category": "Core",
           "type": "primary",
-          "item": "200"
+          "item": "s200"
         },
         "path": [
           "Core",
           "primary",
-          "200"
+          "s200"
         ]
       },
-      "300": {
+      "s300": {
         "value": "#ff9d57",
         "type": "color",
         "filePath": "sd-input/src/from-figma-tokens.json",
@@ -333,19 +333,19 @@ module.exports = {
           "value": "#ff9d57",
           "type": "color"
         },
-        "name": "CorePrimary300",
+        "name": "CorePrimaryS300",
         "attributes": {
           "category": "Core",
           "type": "primary",
-          "item": "300"
+          "item": "s300"
         },
         "path": [
           "Core",
           "primary",
-          "300"
+          "s300"
         ]
       },
-      "400": {
+      "s400": {
         "value": "#bd550a",
         "type": "color",
         "filePath": "sd-input/src/from-figma-tokens.json",
@@ -354,19 +354,19 @@ module.exports = {
           "value": "#bd550a",
           "type": "color"
         },
-        "name": "CorePrimary400",
+        "name": "CorePrimaryS400",
         "attributes": {
           "category": "Core",
           "type": "primary",
-          "item": "400"
+          "item": "s400"
         },
         "path": [
           "Core",
           "primary",
-          "400"
+          "s400"
         ]
       },
-      "500": {
+      "s500": {
         "value": "#8a3900",
         "type": "color",
         "filePath": "sd-input/src/from-figma-tokens.json",
@@ -375,19 +375,19 @@ module.exports = {
           "value": "#8a3900",
           "type": "color"
         },
-        "name": "CorePrimary500",
+        "name": "CorePrimaryS500",
         "attributes": {
           "category": "Core",
           "type": "primary",
-          "item": "500"
+          "item": "s500"
         },
         "path": [
           "Core",
           "primary",
-          "500"
+          "s500"
         ]
       },
-      "600": {
+      "s600": {
         "value": "#572400",
         "type": "color",
         "filePath": "sd-input/src/from-figma-tokens.json",
@@ -396,16 +396,16 @@ module.exports = {
           "value": "#572400",
           "type": "color"
         },
-        "name": "CorePrimary600",
+        "name": "CorePrimaryS600",
         "attributes": {
           "category": "Core",
           "type": "primary",
-          "item": "600"
+          "item": "s600"
         },
         "path": [
           "Core",
           "primary",
-          "600"
+          "s600"
         ]
       },
       "goat": {
@@ -431,7 +431,7 @@ module.exports = {
       }
     },
     "secondary": {
-      "100": {
+      "s100": {
         "value": "#ffe2b2",
         "type": "color",
         "filePath": "sd-input/src/from-figma-tokens.json",
@@ -440,19 +440,19 @@ module.exports = {
           "value": "#ffe2b2",
           "type": "color"
         },
-        "name": "CoreSecondary100",
+        "name": "CoreSecondaryS100",
         "attributes": {
           "category": "Core",
           "type": "secondary",
-          "item": "100"
+          "item": "s100"
         },
         "path": [
           "Core",
           "secondary",
-          "100"
+          "s100"
         ]
       },
-      "200": {
+      "s200": {
         "value": "#ffcc7a",
         "type": "color",
         "filePath": "sd-input/src/from-figma-tokens.json",
@@ -461,19 +461,19 @@ module.exports = {
           "value": "#ffcc7a",
           "type": "color"
         },
-        "name": "CoreSecondary200",
+        "name": "CoreSecondaryS200",
         "attributes": {
           "category": "Core",
           "type": "secondary",
-          "item": "200"
+          "item": "s200"
         },
         "path": [
           "Core",
           "secondary",
-          "200"
+          "s200"
         ]
       },
-      "300": {
+      "s300": {
         "value": "#ffb742",
         "type": "color",
         "filePath": "sd-input/src/from-figma-tokens.json",
@@ -482,19 +482,19 @@ module.exports = {
           "value": "#ffb742",
           "type": "color"
         },
-        "name": "CoreSecondary300",
+        "name": "CoreSecondaryS300",
         "attributes": {
           "category": "Core",
           "type": "secondary",
-          "item": "300"
+          "item": "s300"
         },
         "path": [
           "Core",
           "secondary",
-          "300"
+          "s300"
         ]
       },
-      "400": {
+      "s400": {
         "value": "#c27800",
         "type": "color",
         "filePath": "sd-input/src/from-figma-tokens.json",
@@ -503,19 +503,19 @@ module.exports = {
           "value": "#c27800",
           "type": "color"
         },
-        "name": "CoreSecondary400",
+        "name": "CoreSecondaryS400",
         "attributes": {
           "category": "Core",
           "type": "secondary",
-          "item": "400"
+          "item": "s400"
         },
         "path": [
           "Core",
           "secondary",
-          "400"
+          "s400"
         ]
       },
-      "500": {
+      "s500": {
         "value": "#8f5800",
         "type": "color",
         "filePath": "sd-input/src/from-figma-tokens.json",
@@ -524,19 +524,19 @@ module.exports = {
           "value": "#8f5800",
           "type": "color"
         },
-        "name": "CoreSecondary500",
+        "name": "CoreSecondaryS500",
         "attributes": {
           "category": "Core",
           "type": "secondary",
-          "item": "500"
+          "item": "s500"
         },
         "path": [
           "Core",
           "secondary",
-          "500"
+          "s500"
         ]
       },
-      "600": {
+      "s600": {
         "value": "#5c3900",
         "type": "color",
         "filePath": "sd-input/src/from-figma-tokens.json",
@@ -545,16 +545,16 @@ module.exports = {
           "value": "#5c3900",
           "type": "color"
         },
-        "name": "CoreSecondary600",
+        "name": "CoreSecondaryS600",
         "attributes": {
           "category": "Core",
           "type": "secondary",
-          "item": "600"
+          "item": "s600"
         },
         "path": [
           "Core",
           "secondary",
-          "600"
+          "s600"
         ]
       },
       "main": {
@@ -687,7 +687,7 @@ module.exports = {
       }
     },
     "success": {
-      "100": {
+      "s100": {
         "value": "#d5fff2",
         "type": "color",
         "filePath": "sd-input/src/from-figma-tokens.json",
@@ -696,19 +696,19 @@ module.exports = {
           "value": "#d5fff2",
           "type": "color"
         },
-        "name": "CoreSuccess100",
+        "name": "CoreSuccessS100",
         "attributes": {
           "category": "Core",
           "type": "success",
-          "item": "100"
+          "item": "s100"
         },
         "path": [
           "Core",
           "success",
-          "100"
+          "s100"
         ]
       },
-      "200": {
+      "s200": {
         "value": "#b5ffe9",
         "type": "color",
         "filePath": "sd-input/src/from-figma-tokens.json",
@@ -717,19 +717,19 @@ module.exports = {
           "value": "#b5ffe9",
           "type": "color"
         },
-        "name": "CoreSuccess200",
+        "name": "CoreSuccessS200",
         "attributes": {
           "category": "Core",
           "type": "success",
-          "item": "200"
+          "item": "s200"
         },
         "path": [
           "Core",
           "success",
-          "200"
+          "s200"
         ]
       },
-      "300": {
+      "s300": {
         "value": "#95ffdf",
         "type": "color",
         "filePath": "sd-input/src/from-figma-tokens.json",
@@ -738,19 +738,19 @@ module.exports = {
           "value": "#95ffdf",
           "type": "color"
         },
-        "name": "CoreSuccess300",
+        "name": "CoreSuccessS300",
         "attributes": {
           "category": "Core",
           "type": "success",
-          "item": "300"
+          "item": "s300"
         },
         "path": [
           "Core",
           "success",
-          "300"
+          "s300"
         ]
       },
-      "400": {
+      "s400": {
         "value": "#79e1c2",
         "type": "color",
         "filePath": "sd-input/src/from-figma-tokens.json",
@@ -759,19 +759,19 @@ module.exports = {
           "value": "#79e1c2",
           "type": "color"
         },
-        "name": "CoreSuccess400",
+        "name": "CoreSuccessS400",
         "attributes": {
           "category": "Core",
           "type": "success",
-          "item": "400"
+          "item": "s400"
         },
         "path": [
           "Core",
           "success",
-          "400"
+          "s400"
         ]
       },
-      "500": {
+      "s500": {
         "value": "#409078",
         "type": "color",
         "filePath": "sd-input/src/from-figma-tokens.json",
@@ -780,19 +780,19 @@ module.exports = {
           "value": "#409078",
           "type": "color"
         },
-        "name": "CoreSuccess500",
+        "name": "CoreSuccessS500",
         "attributes": {
           "category": "Core",
           "type": "success",
-          "item": "500"
+          "item": "s500"
         },
         "path": [
           "Core",
           "success",
-          "500"
+          "s500"
         ]
       },
-      "600": {
+      "s600": {
         "value": "#296754",
         "type": "color",
         "filePath": "sd-input/src/from-figma-tokens.json",
@@ -801,16 +801,16 @@ module.exports = {
           "value": "#296754",
           "type": "color"
         },
-        "name": "CoreSuccess600",
+        "name": "CoreSuccessS600",
         "attributes": {
           "category": "Core",
           "type": "success",
-          "item": "600"
+          "item": "s600"
         },
         "path": [
           "Core",
           "success",
-          "600"
+          "s600"
         ]
       },
       "main": {
@@ -836,7 +836,7 @@ module.exports = {
       }
     },
     "supporting1": {
-      "100": {
+      "s100": {
         "value": "#b7e1ff",
         "type": "color",
         "filePath": "sd-input/src/from-figma-tokens.json",
@@ -845,19 +845,19 @@ module.exports = {
           "value": "#b7e1ff",
           "type": "color"
         },
-        "name": "CoreSupporting1100",
+        "name": "CoreSupporting1S100",
         "attributes": {
           "category": "Core",
           "type": "supporting1",
-          "item": "100"
+          "item": "s100"
         },
         "path": [
           "Core",
           "supporting1",
-          "100"
+          "s100"
         ]
       },
-      "200": {
+      "s200": {
         "value": "#85ccff",
         "type": "color",
         "filePath": "sd-input/src/from-figma-tokens.json",
@@ -866,19 +866,19 @@ module.exports = {
           "value": "#85ccff",
           "type": "color"
         },
-        "name": "CoreSupporting1200",
+        "name": "CoreSupporting1S200",
         "attributes": {
           "category": "Core",
           "type": "supporting1",
-          "item": "200"
+          "item": "s200"
         },
         "path": [
           "Core",
           "supporting1",
-          "200"
+          "s200"
         ]
       },
-      "300": {
+      "s300": {
         "value": "#54b7ff",
         "type": "color",
         "filePath": "sd-input/src/from-figma-tokens.json",
@@ -887,19 +887,19 @@ module.exports = {
           "value": "#54b7ff",
           "type": "color"
         },
-        "name": "CoreSupporting1300",
+        "name": "CoreSupporting1S300",
         "attributes": {
           "category": "Core",
           "type": "supporting1",
-          "item": "300"
+          "item": "s300"
         },
         "path": [
           "Core",
           "supporting1",
-          "300"
+          "s300"
         ]
       },
-      "400": {
+      "s400": {
         "value": "#0870bb",
         "type": "color",
         "filePath": "sd-input/src/from-figma-tokens.json",
@@ -908,19 +908,19 @@ module.exports = {
           "value": "#0870bb",
           "type": "color"
         },
-        "name": "CoreSupporting1400",
+        "name": "CoreSupporting1S400",
         "attributes": {
           "category": "Core",
           "type": "supporting1",
-          "item": "400"
+          "item": "s400"
         },
         "path": [
           "Core",
           "supporting1",
-          "400"
+          "s400"
         ]
       },
-      "500": {
+      "s500": {
         "value": "#004f88",
         "type": "color",
         "filePath": "sd-input/src/from-figma-tokens.json",
@@ -929,19 +929,19 @@ module.exports = {
           "value": "#004f88",
           "type": "color"
         },
-        "name": "CoreSupporting1500",
+        "name": "CoreSupporting1S500",
         "attributes": {
           "category": "Core",
           "type": "supporting1",
-          "item": "500"
+          "item": "s500"
         },
         "path": [
           "Core",
           "supporting1",
-          "500"
+          "s500"
         ]
       },
-      "600": {
+      "s600": {
         "value": "#003255",
         "type": "color",
         "filePath": "sd-input/src/from-figma-tokens.json",
@@ -950,16 +950,16 @@ module.exports = {
           "value": "#003255",
           "type": "color"
         },
-        "name": "CoreSupporting1600",
+        "name": "CoreSupporting1S600",
         "attributes": {
           "category": "Core",
           "type": "supporting1",
-          "item": "600"
+          "item": "s600"
         },
         "path": [
           "Core",
           "supporting1",
-          "600"
+          "s600"
         ]
       },
       "main": {
@@ -985,7 +985,7 @@ module.exports = {
       }
     },
     "supporting2": {
-      "100": {
+      "s100": {
         "value": "#fdafff",
         "type": "color",
         "filePath": "sd-input/src/from-figma-tokens.json",
@@ -994,19 +994,19 @@ module.exports = {
           "value": "#fdafff",
           "type": "color"
         },
-        "name": "CoreSupporting2100",
+        "name": "CoreSupporting2S100",
         "attributes": {
           "category": "Core",
           "type": "supporting2",
-          "item": "100"
+          "item": "s100"
         },
         "path": [
           "Core",
           "supporting2",
-          "100"
+          "s100"
         ]
       },
-      "200": {
+      "s200": {
         "value": "#fc74ff",
         "type": "color",
         "filePath": "sd-input/src/from-figma-tokens.json",
@@ -1015,19 +1015,19 @@ module.exports = {
           "value": "#fc74ff",
           "type": "color"
         },
-        "name": "CoreSupporting2200",
+        "name": "CoreSupporting2S200",
         "attributes": {
           "category": "Core",
           "type": "supporting2",
-          "item": "200"
+          "item": "s200"
         },
         "path": [
           "Core",
           "supporting2",
-          "200"
+          "s200"
         ]
       },
-      "300": {
+      "s300": {
         "value": "#cb21cf",
         "type": "color",
         "filePath": "sd-input/src/from-figma-tokens.json",
@@ -1036,19 +1036,19 @@ module.exports = {
           "value": "#cb21cf",
           "type": "color"
         },
-        "name": "CoreSupporting2300",
+        "name": "CoreSupporting2S300",
         "attributes": {
           "category": "Core",
           "type": "supporting2",
-          "item": "300"
+          "item": "s300"
         },
         "path": [
           "Core",
           "supporting2",
-          "300"
+          "s300"
         ]
       },
-      "400": {
+      "s400": {
         "value": "#a310a6",
         "type": "color",
         "filePath": "sd-input/src/from-figma-tokens.json",
@@ -1057,19 +1057,19 @@ module.exports = {
           "value": "#a310a6",
           "type": "color"
         },
-        "name": "CoreSupporting2400",
+        "name": "CoreSupporting2S400",
         "attributes": {
           "category": "Core",
           "type": "supporting2",
-          "item": "400"
+          "item": "s400"
         },
         "path": [
           "Core",
           "supporting2",
-          "400"
+          "s400"
         ]
       },
-      "500": {
+      "s500": {
         "value": "#7b047d",
         "type": "color",
         "filePath": "sd-input/src/from-figma-tokens.json",
@@ -1078,19 +1078,19 @@ module.exports = {
           "value": "#7b047d",
           "type": "color"
         },
-        "name": "CoreSupporting2500",
+        "name": "CoreSupporting2S500",
         "attributes": {
           "category": "Core",
           "type": "supporting2",
-          "item": "500"
+          "item": "s500"
         },
         "path": [
           "Core",
           "supporting2",
-          "500"
+          "s500"
         ]
       },
-      "600": {
+      "s600": {
         "value": "#530054",
         "type": "color",
         "filePath": "sd-input/src/from-figma-tokens.json",
@@ -1099,16 +1099,16 @@ module.exports = {
           "value": "#530054",
           "type": "color"
         },
-        "name": "CoreSupporting2600",
+        "name": "CoreSupporting2S600",
         "attributes": {
           "category": "Core",
           "type": "supporting2",
-          "item": "600"
+          "item": "s600"
         },
         "path": [
           "Core",
           "supporting2",
-          "600"
+          "s600"
         ]
       },
       "main": {
@@ -1134,7 +1134,7 @@ module.exports = {
       }
     },
     "supporting3": {
-      "100": {
+      "s100": {
         "value": "#d5b7ff",
         "type": "color",
         "filePath": "sd-input/src/from-figma-tokens.json",
@@ -1143,19 +1143,19 @@ module.exports = {
           "value": "#d5b7ff",
           "type": "color"
         },
-        "name": "CoreSupporting3100",
+        "name": "CoreSupporting3S100",
         "attributes": {
           "category": "Core",
           "type": "supporting3",
-          "item": "100"
+          "item": "s100"
         },
         "path": [
           "Core",
           "supporting3",
-          "100"
+          "s100"
         ]
       },
-      "200": {
+      "s200": {
         "value": "#b885ff",
         "type": "color",
         "filePath": "sd-input/src/from-figma-tokens.json",
@@ -1164,19 +1164,19 @@ module.exports = {
           "value": "#b885ff",
           "type": "color"
         },
-        "name": "CoreSupporting3200",
+        "name": "CoreSupporting3S200",
         "attributes": {
           "category": "Core",
           "type": "supporting3",
-          "item": "200"
+          "item": "s200"
         },
         "path": [
           "Core",
           "supporting3",
-          "200"
+          "s200"
         ]
       },
-      "300": {
+      "s300": {
         "value": "#9b54ff",
         "type": "color",
         "filePath": "sd-input/src/from-figma-tokens.json",
@@ -1185,19 +1185,19 @@ module.exports = {
           "value": "#9b54ff",
           "type": "color"
         },
-        "name": "CoreSupporting3300",
+        "name": "CoreSupporting3S300",
         "attributes": {
           "category": "Core",
           "type": "supporting3",
-          "item": "300"
+          "item": "s300"
         },
         "path": [
           "Core",
           "supporting3",
-          "300"
+          "s300"
         ]
       },
-      "400": {
+      "s400": {
         "value": "#5308bb",
         "type": "color",
         "filePath": "sd-input/src/from-figma-tokens.json",
@@ -1206,19 +1206,19 @@ module.exports = {
           "value": "#5308bb",
           "type": "color"
         },
-        "name": "CoreSupporting3400",
+        "name": "CoreSupporting3S400",
         "attributes": {
           "category": "Core",
           "type": "supporting3",
-          "item": "400"
+          "item": "s400"
         },
         "path": [
           "Core",
           "supporting3",
-          "400"
+          "s400"
         ]
       },
-      "500": {
+      "s500": {
         "value": "#390088",
         "type": "color",
         "filePath": "sd-input/src/from-figma-tokens.json",
@@ -1227,19 +1227,19 @@ module.exports = {
           "value": "#390088",
           "type": "color"
         },
-        "name": "CoreSupporting3500",
+        "name": "CoreSupporting3S500",
         "attributes": {
           "category": "Core",
           "type": "supporting3",
-          "item": "500"
+          "item": "s500"
         },
         "path": [
           "Core",
           "supporting3",
-          "500"
+          "s500"
         ]
       },
-      "600": {
+      "s600": {
         "value": "#240055",
         "type": "color",
         "filePath": "sd-input/src/from-figma-tokens.json",
@@ -1248,16 +1248,16 @@ module.exports = {
           "value": "#240055",
           "type": "color"
         },
-        "name": "CoreSupporting3600",
+        "name": "CoreSupporting3S600",
         "attributes": {
           "category": "Core",
           "type": "supporting3",
-          "item": "600"
+          "item": "s600"
         },
         "path": [
           "Core",
           "supporting3",
-          "600"
+          "s600"
         ]
       },
       "main": {
@@ -1283,7 +1283,7 @@ module.exports = {
       }
     },
     "destructive": {
-      "100": {
+      "s100": {
         "value": "#ffafaf",
         "type": "color",
         "filePath": "sd-input/src/from-figma-tokens.json",
@@ -1292,19 +1292,19 @@ module.exports = {
           "value": "#ffafaf",
           "type": "color"
         },
-        "name": "CoreDestructive100",
+        "name": "CoreDestructiveS100",
         "attributes": {
           "category": "Core",
           "type": "destructive",
-          "item": "100"
+          "item": "s100"
         },
         "path": [
           "Core",
           "destructive",
-          "100"
+          "s100"
         ]
       },
-      "200": {
+      "s200": {
         "value": "#ff7474",
         "type": "color",
         "filePath": "sd-input/src/from-figma-tokens.json",
@@ -1313,19 +1313,19 @@ module.exports = {
           "value": "#ff7474",
           "type": "color"
         },
-        "name": "CoreDestructive200",
+        "name": "CoreDestructiveS200",
         "attributes": {
           "category": "Core",
           "type": "destructive",
-          "item": "200"
+          "item": "s200"
         },
         "path": [
           "Core",
           "destructive",
-          "200"
+          "s200"
         ]
       },
-      "300": {
+      "s300": {
         "value": "#f93737",
         "type": "color",
         "filePath": "sd-input/src/from-figma-tokens.json",
@@ -1334,19 +1334,19 @@ module.exports = {
           "value": "#f93737",
           "type": "color"
         },
-        "name": "CoreDestructive300",
+        "name": "CoreDestructiveS300",
         "attributes": {
           "category": "Core",
           "type": "destructive",
-          "item": "300"
+          "item": "s300"
         },
         "path": [
           "Core",
           "destructive",
-          "300"
+          "s300"
         ]
       },
-      "400": {
+      "s400": {
         "value": "#a71010",
         "type": "color",
         "filePath": "sd-input/src/from-figma-tokens.json",
@@ -1355,19 +1355,19 @@ module.exports = {
           "value": "#a71010",
           "type": "color"
         },
-        "name": "CoreDestructive400",
+        "name": "CoreDestructiveS400",
         "attributes": {
           "category": "Core",
           "type": "destructive",
-          "item": "400"
+          "item": "s400"
         },
         "path": [
           "Core",
           "destructive",
-          "400"
+          "s400"
         ]
       },
-      "500": {
+      "s500": {
         "value": "#7e0404",
         "type": "color",
         "filePath": "sd-input/src/from-figma-tokens.json",
@@ -1376,19 +1376,19 @@ module.exports = {
           "value": "#7e0404",
           "type": "color"
         },
-        "name": "CoreDestructive500",
+        "name": "CoreDestructiveS500",
         "attributes": {
           "category": "Core",
           "type": "destructive",
-          "item": "500"
+          "item": "s500"
         },
         "path": [
           "Core",
           "destructive",
-          "500"
+          "s500"
         ]
       },
-      "600": {
+      "s600": {
         "value": "#550000",
         "type": "color",
         "filePath": "sd-input/src/from-figma-tokens.json",
@@ -1397,16 +1397,16 @@ module.exports = {
           "value": "#550000",
           "type": "color"
         },
-        "name": "CoreDestructive600",
+        "name": "CoreDestructiveS600",
         "attributes": {
           "category": "Core",
           "type": "destructive",
-          "item": "600"
+          "item": "s600"
         },
         "path": [
           "Core",
           "destructive",
-          "600"
+          "s600"
         ]
       },
       "main": {
