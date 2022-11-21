@@ -4,6 +4,367 @@
 
 module.exports = {
   "Core": {
+    "radii": {
+      "0": {
+        "value": "0",
+        "type": "borderRadius",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "0",
+          "type": "borderRadius"
+        },
+        "name": "CoreRadii0",
+        "attributes": {
+          "category": "Core",
+          "type": "radii",
+          "item": "0"
+        },
+        "path": [
+          "Core",
+          "radii",
+          "0"
+        ]
+      },
+      "1": {
+        "value": "3px",
+        "type": "borderRadius",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "3px",
+          "type": "borderRadius"
+        },
+        "name": "CoreRadii1",
+        "attributes": {
+          "category": "Core",
+          "type": "radii",
+          "item": "1"
+        },
+        "path": [
+          "Core",
+          "radii",
+          "1"
+        ]
+      },
+      "2": {
+        "value": "6px",
+        "type": "borderRadius",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "6px",
+          "type": "borderRadius"
+        },
+        "name": "CoreRadii2",
+        "attributes": {
+          "category": "Core",
+          "type": "radii",
+          "item": "2"
+        },
+        "path": [
+          "Core",
+          "radii",
+          "2"
+        ]
+      },
+      "3": {
+        "value": "100px",
+        "type": "borderRadius",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "100px",
+          "type": "borderRadius"
+        },
+        "name": "CoreRadii3",
+        "attributes": {
+          "category": "Core",
+          "type": "radii",
+          "item": "3"
+        },
+        "path": [
+          "Core",
+          "radii",
+          "3"
+        ]
+      }
+    },
+    "space": {
+      "0": {
+        "value": "0",
+        "type": "spacing",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "0",
+          "type": "spacing"
+        },
+        "name": "CoreSpace0",
+        "attributes": {
+          "category": "Core",
+          "type": "space",
+          "item": "0"
+        },
+        "path": [
+          "Core",
+          "space",
+          "0"
+        ]
+      },
+      "1": {
+        "value": "4px",
+        "type": "spacing",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "4px",
+          "type": "spacing"
+        },
+        "name": "CoreSpace1",
+        "attributes": {
+          "category": "Core",
+          "type": "space",
+          "item": "1"
+        },
+        "path": [
+          "Core",
+          "space",
+          "1"
+        ]
+      },
+      "2": {
+        "value": "8px",
+        "type": "spacing",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "8px",
+          "type": "spacing"
+        },
+        "name": "CoreSpace2",
+        "attributes": {
+          "category": "Core",
+          "type": "space",
+          "item": "2"
+        },
+        "path": [
+          "Core",
+          "space",
+          "2"
+        ]
+      },
+      "3": {
+        "value": "16px",
+        "type": "spacing",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "16px",
+          "type": "spacing"
+        },
+        "name": "CoreSpace3",
+        "attributes": {
+          "category": "Core",
+          "type": "space",
+          "item": "3"
+        },
+        "path": [
+          "Core",
+          "space",
+          "3"
+        ]
+      },
+      "4": {
+        "value": "24px",
+        "type": "spacing",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "24px",
+          "type": "spacing"
+        },
+        "name": "CoreSpace4",
+        "attributes": {
+          "category": "Core",
+          "type": "space",
+          "item": "4"
+        },
+        "path": [
+          "Core",
+          "space",
+          "4"
+        ]
+      },
+      "5": {
+        "value": "32px",
+        "type": "spacing",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "32px",
+          "type": "spacing"
+        },
+        "name": "CoreSpace5",
+        "attributes": {
+          "category": "Core",
+          "type": "space",
+          "item": "5"
+        },
+        "path": [
+          "Core",
+          "space",
+          "5"
+        ]
+      },
+      "6": {
+        "value": "40px",
+        "type": "spacing",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "40px",
+          "type": "spacing"
+        },
+        "name": "CoreSpace6",
+        "attributes": {
+          "category": "Core",
+          "type": "space",
+          "item": "6"
+        },
+        "path": [
+          "Core",
+          "space",
+          "6"
+        ]
+      },
+      "7": {
+        "value": "48px",
+        "type": "spacing",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "48px",
+          "type": "spacing"
+        },
+        "name": "CoreSpace7",
+        "attributes": {
+          "category": "Core",
+          "type": "space",
+          "item": "7"
+        },
+        "path": [
+          "Core",
+          "space",
+          "7"
+        ]
+      },
+      "8": {
+        "value": "64px",
+        "type": "spacing",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "64px",
+          "type": "spacing"
+        },
+        "name": "CoreSpace8",
+        "attributes": {
+          "category": "Core",
+          "type": "space",
+          "item": "8"
+        },
+        "path": [
+          "Core",
+          "space",
+          "8"
+        ]
+      },
+      "9": {
+        "value": "80px",
+        "type": "spacing",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "80px",
+          "type": "spacing"
+        },
+        "name": "CoreSpace9",
+        "attributes": {
+          "category": "Core",
+          "type": "space",
+          "item": "9"
+        },
+        "path": [
+          "Core",
+          "space",
+          "9"
+        ]
+      },
+      "10": {
+        "value": "96px",
+        "type": "spacing",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "96px",
+          "type": "spacing"
+        },
+        "name": "CoreSpace10",
+        "attributes": {
+          "category": "Core",
+          "type": "space",
+          "item": "10"
+        },
+        "path": [
+          "Core",
+          "space",
+          "10"
+        ]
+      },
+      "11": {
+        "value": "112px",
+        "type": "spacing",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "112px",
+          "type": "spacing"
+        },
+        "name": "CoreSpace11",
+        "attributes": {
+          "category": "Core",
+          "type": "space",
+          "item": "11"
+        },
+        "path": [
+          "Core",
+          "space",
+          "11"
+        ]
+      },
+      "12": {
+        "value": "128px",
+        "type": "spacing",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "128px",
+          "type": "spacing"
+        },
+        "name": "CoreSpace12",
+        "attributes": {
+          "category": "Core",
+          "type": "space",
+          "item": "12"
+        },
+        "path": [
+          "Core",
+          "space",
+          "12"
+        ]
+      }
+    },
     "colors": {
       "global": {
         "white": {
@@ -1565,6 +1926,197 @@ module.exports = {
             "main"
           ]
         }
+      }
+    },
+    "fontSize": {
+      "0": {
+        "value": "10px",
+        "type": "fontSizes",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "10px",
+          "type": "fontSizes"
+        },
+        "name": "CoreFontSize0",
+        "attributes": {
+          "category": "Core",
+          "type": "fontSize",
+          "item": "0"
+        },
+        "path": [
+          "Core",
+          "fontSize",
+          "0"
+        ]
+      },
+      "1": {
+        "value": "12px",
+        "type": "fontSizes",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "12px",
+          "type": "fontSizes"
+        },
+        "name": "CoreFontSize1",
+        "attributes": {
+          "category": "Core",
+          "type": "fontSize",
+          "item": "1"
+        },
+        "path": [
+          "Core",
+          "fontSize",
+          "1"
+        ]
+      },
+      "2": {
+        "value": "14px",
+        "type": "fontSizes",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "14px",
+          "type": "fontSizes"
+        },
+        "name": "CoreFontSize2",
+        "attributes": {
+          "category": "Core",
+          "type": "fontSize",
+          "item": "2"
+        },
+        "path": [
+          "Core",
+          "fontSize",
+          "2"
+        ]
+      },
+      "3": {
+        "value": "16px",
+        "type": "fontSizes",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "16px",
+          "type": "fontSizes"
+        },
+        "name": "CoreFontSize3",
+        "attributes": {
+          "category": "Core",
+          "type": "fontSize",
+          "item": "3"
+        },
+        "path": [
+          "Core",
+          "fontSize",
+          "3"
+        ]
+      },
+      "4": {
+        "value": "20px",
+        "type": "fontSizes",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "20px",
+          "type": "fontSizes"
+        },
+        "name": "CoreFontSize4",
+        "attributes": {
+          "category": "Core",
+          "type": "fontSize",
+          "item": "4"
+        },
+        "path": [
+          "Core",
+          "fontSize",
+          "4"
+        ]
+      },
+      "5": {
+        "value": "24px",
+        "type": "fontSizes",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "24px",
+          "type": "fontSizes"
+        },
+        "name": "CoreFontSize5",
+        "attributes": {
+          "category": "Core",
+          "type": "fontSize",
+          "item": "5"
+        },
+        "path": [
+          "Core",
+          "fontSize",
+          "5"
+        ]
+      },
+      "6": {
+        "value": "32px",
+        "type": "fontSizes",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "32px",
+          "type": "fontSizes"
+        },
+        "name": "CoreFontSize6",
+        "attributes": {
+          "category": "Core",
+          "type": "fontSize",
+          "item": "6"
+        },
+        "path": [
+          "Core",
+          "fontSize",
+          "6"
+        ]
+      },
+      "7": {
+        "value": "40px",
+        "type": "fontSizes",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "40px",
+          "type": "fontSizes"
+        },
+        "name": "CoreFontSize7",
+        "attributes": {
+          "category": "Core",
+          "type": "fontSize",
+          "item": "7"
+        },
+        "path": [
+          "Core",
+          "fontSize",
+          "7"
+        ]
+      },
+      "8": {
+        "value": "48px",
+        "type": "fontSizes",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "48px",
+          "type": "fontSizes"
+        },
+        "name": "CoreFontSize8",
+        "attributes": {
+          "category": "Core",
+          "type": "fontSize",
+          "item": "8"
+        },
+        "path": [
+          "Core",
+          "fontSize",
+          "8"
+        ]
       }
     }
   },
