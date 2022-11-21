@@ -1,0 +1,26 @@
+import * as tokens from '../../npm/styles/js/variables.js'
+
+# Spacing
+
+{console.log(tokens)}
+<table style={{width: '50vw', marginTop: '30px'}}>
+  <tr>
+    <th>Name</th>
+    <th>Size</th>
+    <th></th>
+  </tr>
+
+{Object.entries(tokens['Core'].space).map(([key, space]) => {
+  return (
+    <tr key={`${key}`}>
+      <td style={{margin: '20px 0px 0px 0px', color: 'black'}}>{key}</td>
+      <td style={{display: 'flex', flexWrap: 'wrap'}}>
+            <div key={`${key}`} style={{display: 'flex', flexDirection: 'column', marginRight: '10px'}}>
+              <p style={{margin: '0px'}}>{space.value}</p>
+            </div>
+      </td>
+      <td><div style={{height: '15px', width: space.value, backgroundColor: 'darkgrey'}} /></td>
+    </tr>
+  )
+})}
+</table>

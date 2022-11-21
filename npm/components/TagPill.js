@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 const tokens = require('../styles/js/variables');
-// TODO prepare this component to accept custom colors
+
 const TagPill = styled.div(
   ({
     theme,
@@ -14,37 +14,34 @@ const TagPill = styled.div(
   }) => {
 
     theme.length ? null : theme = tokens['Core'];
+    const {colors, space, fontSize, radii} = theme
 
     const backgroundColor = () => {
-      if (primary) return theme.goatPrimary.value;
-      if (secondary) return theme.neutral400.value;
-      if (disabled) return theme.neutral400.value;
-      if (excluded) return theme.warning400.value;
-      if (positive) return theme.success.value;
-      if (negative) return theme.supporting2.value;
-      if (neutral) return theme.neutral400.value;
+      if (primary) return colors.primary.goat.value;
+      if (secondary) return colors.neutral.s400.value;
+      if (disabled) return colors.neutral.s400.value;
+      if (excluded) return colors.destructive.s400.value;
+      if (positive) return colors.success.main.value;
+      if (negative) return colors.supporting2.main.value;
+      if (neutral) return colors.neutral.s400.value;
     };
 
     const color = () => {
-      if (primary) return theme.globalWhite.value;
-      if (secondary) return theme.globalBlack.value;
-      if (disabled) return theme.globalBlack.value;
-      if (excluded) return theme.globalWhite.value;
-      if (positive) return theme.globalWhite.value;
-      if (negative) return theme.globalWhite.value;
-      if (neutral) return theme.globalBlack.value;
+      if (secondary) return colors.global.black.value;
+      if (disabled) return colors.global.black.value;
+      if (neutral) return colors.global.black.value;
+      else return colors.global.white.value
     };
 
     return {
       textAlign: 'center',
-      margin: `${theme.space2.value} ${theme.space2.value}`,
-      fontSize: theme.fontSize0.value,
-      padding: `${theme.space1.value} ${theme.space3.value}`,
-      maxWidth: theme.space9.value,
-      minHeight: theme.space6,
-      borderRadius: theme.borderRadius3.value,
+      margin: `${space['2'].value} ${space['2'].value}`,
+      fontSize: fontSize['0'].value,
+      padding: `${space['1'].value} ${space['1'].value}`,
+      maxWidth: space['9'].value,
+      minWidth: space['8'].value,
+      borderRadius: radii['3'].value,
       color: color(),
-      borderWidth: '1px',
       backgroundColor: backgroundColor(),
       opacity: disabled ? 0.6 : 1,
     };
