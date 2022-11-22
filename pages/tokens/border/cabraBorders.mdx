@@ -1,0 +1,15 @@
+import * as tokens from '../../../npm/styles/js/variables.js'
+
+# Cabra Borders
+<hr style={{margin: '0px', filter: 'contrast(600%) invert(0.7)', height: '2px' }}/>
+
+<div style={{display: 'flex', gap: '2vw', flexWrap: 'wrap'}}>
+  {Object.entries(tokens['Core'].border).map(([borderName, border]) => {
+    return (
+      <div style={{display: 'flex', flexDirection: 'column'}}>
+        <p>{borderName}</p>
+        <div style={{width: '8vw', minHeight: '8vw', border: border.value}}/>
+      </div>
+    )
+  })}
+</div>
