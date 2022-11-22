@@ -2155,6 +2155,27 @@ module.exports = {
           "border",
           "thickBlack"
         ]
+      },
+      "none": {
+        "value": "none",
+        "type": "border",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "none",
+          "type": "border"
+        },
+        "name": "CoreBorderNone",
+        "attributes": {
+          "category": "Core",
+          "type": "border",
+          "item": "none"
+        },
+        "path": [
+          "Core",
+          "border",
+          "none"
+        ]
       }
     },
     "lineHeight": {

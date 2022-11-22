@@ -412,6 +412,10 @@
       "thickBlack": {
         "value": "4px solid #000",
         "type": "border"
+      },
+      "none": {
+        "value": "none",
+        "type": "border"
       }
     },
     "lineHeight": {
