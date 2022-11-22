@@ -2,20 +2,56 @@ import * as tokens from '../../npm/styles/js/variables.js'
 
 # Typography
 
-## Showcases
-
 <div>
   ### Font Size
-    <p style={{fontSize: '10px', color: tokens["Core"].colors.primary.goat.value}}>The quick brown fox jumps over the lazy dog.</p>
-  ### Font Family
+  <hr style={{margin: '0px', backgroundColor: 'black', height: '2px' }}/>
+  {Object.entries(tokens['Core'].fontSize).map(([sizeName, size]) => {
+      return (
+        <div style={{display: 'flex', marginTop: size.value}}>
+          <p>{sizeName}</p>
+          <p style={{fontSize:  size.value, margin: '0 0 0 1vw'}}>The quick brown fox jumps over the lazy dog.</p>
+        </div>
+      )
+  })}
 
+  ### Font Family
+  <hr style={{margin: '0px', backgroundColor: 'black', height: '2px' }}/>
 
   ### Font Weight
-    The quick brown fox jumps over the lazy dog.
+  <hr style={{margin: '0px', backgroundColor: 'black', height: '2px' }}/>
+    {Object.entries(tokens['Core'].fontWeight).map(([weightName, weight]) => {
+      return (
+        <div style={{display: 'flex', flex: 'wrap'}}>
+          <p style={{fontWeight:  weight.value, minWidth: '68px' }}>{weightName}</p>
+          <p style={{fontWeight:  weight.value, margin: '0 0 0 1vw'}}>The quick brown fox jumps over the lazy dog.</p>
+        </div>
+      )
+    })}
 
   ### Line Height
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent lacinia lacinia est ut elementum. Aenean dignissim augue non nulla rutrum volutpat. Vestibulum semper gravida nunc, sed interdum ligula sodales at. Pellentesque ut urna mattis, consequat lorem sed, viverra neque. Nulla eros ante, facilisis congue mauris ut, finibus pulvinar lacus. Sed eu fringilla nisl. Nunc dignissim felis ut cursus interdum. Vestibulum vulputate elit at ipsum congue dapibus. Sed nec placerat enim, in sagittis libero. Pellentesque maximus scelerisque risus, eu lobortis turpis. Donec elementum euismod lectus, vel interdum tortor euismod nec. Donec quis ex luctus, malesuada orci vitae, finibus dolor. Integer ante augue, egestas quis magna ornare, porta imperdiet risus. Maecenas semper eleifend neque, a eleifend eros porttitor non. Phasellus eu laoreet mi. Aliquam vitae luctus erat.
+  <hr style={{margin: '0px', backgroundColor: 'black', height: '2px' }}/>
+    {Object.entries(tokens['Core'].lineHeight).map(([lineHeightName, lineHeight]) => {
+      return (
+        <div style={{display: 'flex', flexWrap: 'wrap', gap: '5px', marginTop: '10px'}}>
+          <div>
+          <p style={{lineHeight:  lineHeight.value, fontWeight: 'bold', minWidth: '176px' }}>{lineHeightName}</p>
+          </div>
+          <p style={{lineHeight:  lineHeight.value, margin: '0 0 0 1vw'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent lacinia lacinia est ut elementum. Aenean dignissim augue non nulla rutrum volutpat. Vestibulum semper gravida nunc, sed interdum ligula sodales at. Pellentesque ut urna mattis, consequat lorem sed, viverra neque. Nulla eros ante, facilisis congue mauris ut, finibus pulvinar lacus. Sed eu fringilla nisl. Nunc dignissim felis ut cursus interdum. Vestibulum vulputate elit at ipsum congue dapibus. Sed nec placerat enim, in sagittis libero. Pellentesque maximus scelerisque risus, eu lobortis turpis. Donec elementum euismod lectus, vel interdum tortor euismod nec. Donec quis ex luctus, malesuada orci vitae, finibus dolor. Integer ante augue, egestas quis magna ornare, porta imperdiet risus. Maecenas semper eleifend neque, a eleifend eros porttitor non. Phasellus eu laoreet mi. Aliquam vitae luctus erat.</p>
+        </div>
+      )
+    })}
 
   ### Letter Spacing
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent lacinia lacinia est ut elementum. Aenean dignissim augue non nulla rutrum volutpat. Vestibulum semper gravida nunc, sed interdum ligula sodales at. Pellentesque ut urna mattis, consequat lorem sed, viverra neque. Nulla eros ante, facilisis congue mauris ut, finibus pulvinar lacus. Sed eu fringilla nisl. Nunc dignissim felis ut cursus interdum. Vestibulum vulputate elit at ipsum congue dapibus. Sed nec placerat enim, in sagittis libero. Pellentesque maximus scelerisque risus, eu lobortis turpis. Donec elementum euismod lectus, vel interdum tortor euismod nec. Donec quis ex luctus, malesuada orci vitae, finibus dolor. Integer ante augue, egestas quis magna ornare, porta imperdiet risus. Maecenas semper eleifend neque, a eleifend eros porttitor non. Phasellus eu laoreet mi. Aliquam vitae luctus erat.
+  <hr style={{margin: '0px', backgroundColor: 'black', height: '2px' }}/>
+    {Object.entries(tokens['Core'].letterSpacing).map(([letterSpacingName, letterSpacing]) => {
+    return (
+      <div style={{display: 'flex', flexWrap: 'wrap', gap: '5px', marginTop: '10px'}}>
+        <div>
+        <p style={{letterSpacing:  letterSpacing.value, lineHeight: tokens['Core'].lineHeight.condensed.value , fontWeight: 'bold', minWidth: '176px' }}>{letterSpacingName}</p>
+        </div>
+        <p style={{letterSpacing:  letterSpacing.value, margin: '0 0 0 1vw'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent lacinia lacinia est ut elementum. Aenean dignissim augue non nulla rutrum volutpat. Vestibulum semper gravida nunc, sed interdum ligula sodales at. Pellentesque ut urna mattis, consequat lorem sed, viverra neque. Nulla eros ante, facilisis congue mauris ut, finibus pulvinar lacus. Sed eu fringilla nisl. Nunc dignissim felis ut cursus interdum. Vestibulum vulputate elit at ipsum congue dapibus. Sed nec placerat enim, in sagittis libero. Pellentesque maximus scelerisque risus, eu lobortis turpis. Donec elementum euismod lectus, vel interdum tortor euismod nec. Donec quis ex luctus, malesuada orci vitae, finibus dolor. Integer ante augue, egestas quis magna ornare, porta imperdiet risus. Maecenas semper eleifend neque, a eleifend eros porttitor non. Phasellus eu laoreet mi. Aliquam vitae luctus erat.</p>
+      </div>
+    )
+  })}
+
 </div>
