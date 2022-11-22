@@ -160,8 +160,7 @@
       "controlFocus": "rgba(3, 102, 214, 0.3) 0px 0px 0px 0.2em",
       "primaryShadow": "0px 1px 0px rgba(20, 70, 32, 0.1), inset 0px 2px 0px rgba(255, 255, 255, 0.03)",
       "activeShadow": "inset 0px 1px 0px rgba(20, 70, 32, 0.2)"
-    },
-    "e": "#423a3a"
+    }
   },
   "$themes": [],
   "$metadata": {
