@@ -517,6 +517,10 @@
         "value": "inset 0px 1px 0px rgba(20, 70, 32, 0.2)",
         "type": "boxShadow"
       }
+    },
+    "e": {
+      "value": "#423a3a",
+      "type": "color"
     }
   },
   "$themes": [],
