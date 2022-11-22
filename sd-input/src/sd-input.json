@@ -766,9 +766,5 @@
       },
       "type": "boxShadow"
     }
-  },
-  "a": {
-    "value": "#8f3c3c",
-    "type": "color"
   }
 }
