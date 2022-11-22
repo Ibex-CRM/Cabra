@@ -1897,7 +1897,7 @@ module.exports = {
         ]
       }
     },
-    "sizes": {
+    "size": {
       "small": {
         "value": "544px",
         "type": "sizing",
@@ -1907,15 +1907,15 @@ module.exports = {
           "value": "544px",
           "type": "sizing"
         },
-        "name": "CoreSizesSmall",
+        "name": "CoreSizeSmall",
         "attributes": {
           "category": "Core",
-          "type": "sizes",
+          "type": "size",
           "item": "small"
         },
         "path": [
           "Core",
-          "sizes",
+          "size",
           "small"
         ]
       },
@@ -1928,15 +1928,15 @@ module.exports = {
           "value": "768px",
           "type": "sizing"
         },
-        "name": "CoreSizesMedium",
+        "name": "CoreSizeMedium",
         "attributes": {
           "category": "Core",
-          "type": "sizes",
+          "type": "size",
           "item": "medium"
         },
         "path": [
           "Core",
-          "sizes",
+          "size",
           "medium"
         ]
       },
@@ -1949,15 +1949,15 @@ module.exports = {
           "value": "1012px",
           "type": "sizing"
         },
-        "name": "CoreSizesLarge",
+        "name": "CoreSizeLarge",
         "attributes": {
           "category": "Core",
-          "type": "sizes",
+          "type": "size",
           "item": "large"
         },
         "path": [
           "Core",
-          "sizes",
+          "size",
           "large"
         ]
       },
@@ -1970,15 +1970,15 @@ module.exports = {
           "value": "1280px",
           "type": "sizing"
         },
-        "name": "CoreSizesXlarge",
+        "name": "CoreSizeXlarge",
         "attributes": {
           "category": "Core",
-          "type": "sizes",
+          "type": "size",
           "item": "xlarge"
         },
         "path": [
           "Core",
-          "sizes",
+          "size",
           "xlarge"
         ]
       }
