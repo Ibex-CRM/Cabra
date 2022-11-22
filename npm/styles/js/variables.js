@@ -1811,6 +1811,417 @@ module.exports = {
         }
       }
     },
+    "fontWeight": {
+      "light": {
+        "value": "300",
+        "type": "fontWeights",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "300",
+          "type": "fontWeights"
+        },
+        "name": "CoreFontWeightLight",
+        "attributes": {
+          "category": "Core",
+          "type": "fontWeight",
+          "item": "light"
+        },
+        "path": [
+          "Core",
+          "fontWeight",
+          "light"
+        ]
+      },
+      "semibold": {
+        "value": "500",
+        "type": "fontWeights",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "500",
+          "type": "fontWeights"
+        },
+        "name": "CoreFontWeightSemibold",
+        "attributes": {
+          "category": "Core",
+          "type": "fontWeight",
+          "item": "semibold"
+        },
+        "path": [
+          "Core",
+          "fontWeight",
+          "semibold"
+        ]
+      },
+      "bold": {
+        "value": "600",
+        "type": "fontWeights",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "600",
+          "type": "fontWeights"
+        },
+        "name": "CoreFontWeightBold",
+        "attributes": {
+          "category": "Core",
+          "type": "fontWeight",
+          "item": "bold"
+        },
+        "path": [
+          "Core",
+          "fontWeight",
+          "bold"
+        ]
+      },
+      "normal": {
+        "value": "400",
+        "type": "fontWeights",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "400",
+          "type": "fontWeights"
+        },
+        "name": "CoreFontWeightNormal",
+        "attributes": {
+          "category": "Core",
+          "type": "fontWeight",
+          "item": "normal"
+        },
+        "path": [
+          "Core",
+          "fontWeight",
+          "normal"
+        ]
+      }
+    },
+    "sizes": {
+      "small": {
+        "value": "544px",
+        "type": "sizing",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "544px",
+          "type": "sizing"
+        },
+        "name": "CoreSizesSmall",
+        "attributes": {
+          "category": "Core",
+          "type": "sizes",
+          "item": "small"
+        },
+        "path": [
+          "Core",
+          "sizes",
+          "small"
+        ]
+      },
+      "medium": {
+        "value": "768px",
+        "type": "sizing",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "768px",
+          "type": "sizing"
+        },
+        "name": "CoreSizesMedium",
+        "attributes": {
+          "category": "Core",
+          "type": "sizes",
+          "item": "medium"
+        },
+        "path": [
+          "Core",
+          "sizes",
+          "medium"
+        ]
+      },
+      "large": {
+        "value": "1012px",
+        "type": "sizing",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "1012px",
+          "type": "sizing"
+        },
+        "name": "CoreSizesLarge",
+        "attributes": {
+          "category": "Core",
+          "type": "sizes",
+          "item": "large"
+        },
+        "path": [
+          "Core",
+          "sizes",
+          "large"
+        ]
+      },
+      "xlarge": {
+        "value": "1280px",
+        "type": "sizing",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "1280px",
+          "type": "sizing"
+        },
+        "name": "CoreSizesXlarge",
+        "attributes": {
+          "category": "Core",
+          "type": "sizes",
+          "item": "xlarge"
+        },
+        "path": [
+          "Core",
+          "sizes",
+          "xlarge"
+        ]
+      }
+    },
+    "borderWidth": {
+      "0": {
+        "value": "0",
+        "type": "borderWidth",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "0",
+          "type": "borderWidth"
+        },
+        "name": "CoreBorderWidth0",
+        "attributes": {
+          "category": "Core",
+          "type": "borderWidth",
+          "item": "0"
+        },
+        "path": [
+          "Core",
+          "borderWidth",
+          "0"
+        ]
+      },
+      "1": {
+        "value": "1px",
+        "type": "borderWidth",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "1px",
+          "type": "borderWidth"
+        },
+        "name": "CoreBorderWidth1",
+        "attributes": {
+          "category": "Core",
+          "type": "borderWidth",
+          "item": "1"
+        },
+        "path": [
+          "Core",
+          "borderWidth",
+          "1"
+        ]
+      },
+      "2": {
+        "value": "4px",
+        "type": "borderWidth",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "4px",
+          "type": "borderWidth"
+        },
+        "name": "CoreBorderWidth2",
+        "attributes": {
+          "category": "Core",
+          "type": "borderWidth",
+          "item": "2"
+        },
+        "path": [
+          "Core",
+          "borderWidth",
+          "2"
+        ]
+      }
+    },
+    "borderStyle": {
+      "solid": {
+        "value": "solid",
+        "type": "borderStyle",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "solid",
+          "type": "borderStyle"
+        },
+        "name": "CoreBorderStyleSolid",
+        "attributes": {
+          "category": "Core",
+          "type": "borderStyle",
+          "item": "solid"
+        },
+        "path": [
+          "Core",
+          "borderStyle",
+          "solid"
+        ]
+      },
+      "dotted": {
+        "value": "dotted",
+        "type": "borderStyle",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "dotted",
+          "type": "borderStyle"
+        },
+        "name": "CoreBorderStyleDotted",
+        "attributes": {
+          "category": "Core",
+          "type": "borderStyle",
+          "item": "dotted"
+        },
+        "path": [
+          "Core",
+          "borderStyle",
+          "dotted"
+        ]
+      },
+      "dashed": {
+        "value": "dashed",
+        "type": "borderStyle",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "dashed",
+          "type": "borderStyle"
+        },
+        "name": "CoreBorderStyleDashed",
+        "attributes": {
+          "category": "Core",
+          "type": "borderStyle",
+          "item": "dashed"
+        },
+        "path": [
+          "Core",
+          "borderStyle",
+          "dashed"
+        ]
+      }
+    },
+    "border": {
+      "thinBlack": {
+        "value": "1px solid #000",
+        "type": "border",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "1px solid #000",
+          "type": "border"
+        },
+        "name": "CoreBorderThinBlack",
+        "attributes": {
+          "category": "Core",
+          "type": "border",
+          "item": "thinBlack"
+        },
+        "path": [
+          "Core",
+          "border",
+          "thinBlack"
+        ]
+      },
+      "thickBlack": {
+        "value": "4px solid #000",
+        "type": "border",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "4px solid #000",
+          "type": "border"
+        },
+        "name": "CoreBorderThickBlack",
+        "attributes": {
+          "category": "Core",
+          "type": "border",
+          "item": "thickBlack"
+        },
+        "path": [
+          "Core",
+          "border",
+          "thickBlack"
+        ]
+      }
+    },
+    "lineHeight": {
+      "condensedUltra": {
+        "value": "1",
+        "type": "lineHeights",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "1",
+          "type": "lineHeights"
+        },
+        "name": "CoreLineHeightCondensedUltra",
+        "attributes": {
+          "category": "Core",
+          "type": "lineHeight",
+          "item": "condensedUltra"
+        },
+        "path": [
+          "Core",
+          "lineHeight",
+          "condensedUltra"
+        ]
+      },
+      "condensed": {
+        "value": "1.25",
+        "type": "lineHeights",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "1.25",
+          "type": "lineHeights"
+        },
+        "name": "CoreLineHeightCondensed",
+        "attributes": {
+          "category": "Core",
+          "type": "lineHeight",
+          "item": "condensed"
+        },
+        "path": [
+          "Core",
+          "lineHeight",
+          "condensed"
+        ]
+      },
+      "default": {
+        "value": "1.5",
+        "type": "lineHeights",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "1.5",
+          "type": "lineHeights"
+        },
+        "name": "CoreLineHeightDefault",
+        "attributes": {
+          "category": "Core",
+          "type": "lineHeight",
+          "item": "default"
+        },
+        "path": [
+          "Core",
+          "lineHeight",
+          "default"
+        ]
+      }
+    },
     "fontSize": {
       "0": {
         "value": "10px",
@@ -1999,6 +2410,262 @@ module.exports = {
           "Core",
           "fontSize",
           "8"
+        ]
+      }
+    },
+    "letterSpacing": {
+      "tight": {
+        "value": "-0.03rem",
+        "type": "letterSpacing",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "-0.03rem",
+          "type": "letterSpacing"
+        },
+        "name": "CoreLetterSpacingTight",
+        "attributes": {
+          "category": "Core",
+          "type": "letterSpacing",
+          "item": "tight"
+        },
+        "path": [
+          "Core",
+          "letterSpacing",
+          "tight"
+        ]
+      },
+      "normal": {
+        "value": "0.02rem",
+        "type": "letterSpacing",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "0.02rem",
+          "type": "letterSpacing"
+        },
+        "name": "CoreLetterSpacingNormal",
+        "attributes": {
+          "category": "Core",
+          "type": "letterSpacing",
+          "item": "normal"
+        },
+        "path": [
+          "Core",
+          "letterSpacing",
+          "normal"
+        ]
+      },
+      "loose": {
+        "value": "0.2rem",
+        "type": "letterSpacing",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "0.2rem",
+          "type": "letterSpacing"
+        },
+        "name": "CoreLetterSpacingLoose",
+        "attributes": {
+          "category": "Core",
+          "type": "letterSpacing",
+          "item": "loose"
+        },
+        "path": [
+          "Core",
+          "letterSpacing",
+          "loose"
+        ]
+      }
+    },
+    "boxShadow": {
+      "small": {
+        "value": "0 1px 0 rgba(149, 157, 165, 0.1)",
+        "type": "boxShadow",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "0 1px 0 rgba(149, 157, 165, 0.1)",
+          "type": "boxShadow"
+        },
+        "name": "CoreBoxShadowSmall",
+        "attributes": {
+          "category": "Core",
+          "type": "boxShadow",
+          "item": "small"
+        },
+        "path": [
+          "Core",
+          "boxShadow",
+          "small"
+        ]
+      },
+      "medium": {
+        "value": "0 3px 6px rgba(149, 157, 165, 0.15)",
+        "type": "boxShadow",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "0 3px 6px rgba(149, 157, 165, 0.15)",
+          "type": "boxShadow"
+        },
+        "name": "CoreBoxShadowMedium",
+        "attributes": {
+          "category": "Core",
+          "type": "boxShadow",
+          "item": "medium"
+        },
+        "path": [
+          "Core",
+          "boxShadow",
+          "medium"
+        ]
+      },
+      "large": {
+        "value": "0 8px 24px rgba(149, 157, 165, 0.2)",
+        "type": "boxShadow",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "0 8px 24px rgba(149, 157, 165, 0.2)",
+          "type": "boxShadow"
+        },
+        "name": "CoreBoxShadowLarge",
+        "attributes": {
+          "category": "Core",
+          "type": "boxShadow",
+          "item": "large"
+        },
+        "path": [
+          "Core",
+          "boxShadow",
+          "large"
+        ]
+      },
+      "xlarge": {
+        "value": "0 12px 48px rgba(149, 157, 165, 0.3)",
+        "type": "boxShadow",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "0 12px 48px rgba(149, 157, 165, 0.3)",
+          "type": "boxShadow"
+        },
+        "name": "CoreBoxShadowXlarge",
+        "attributes": {
+          "category": "Core",
+          "type": "boxShadow",
+          "item": "xlarge"
+        },
+        "path": [
+          "Core",
+          "boxShadow",
+          "xlarge"
+        ]
+      },
+      "control": {
+        "value": "inset 0px 2px 0px rgba(225, 228, 232, 0.2)",
+        "type": "boxShadow",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "inset 0px 2px 0px rgba(225, 228, 232, 0.2)",
+          "type": "boxShadow"
+        },
+        "name": "CoreBoxShadowControl",
+        "attributes": {
+          "category": "Core",
+          "type": "boxShadow",
+          "item": "control"
+        },
+        "path": [
+          "Core",
+          "boxShadow",
+          "control"
+        ]
+      },
+      "controlDisabled": {
+        "value": "inset 0px 2px 0px rgba(220, 227, 237, 0.3)",
+        "type": "boxShadow",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "inset 0px 2px 0px rgba(220, 227, 237, 0.3)",
+          "type": "boxShadow"
+        },
+        "name": "CoreBoxShadowControlDisabled",
+        "attributes": {
+          "category": "Core",
+          "type": "boxShadow",
+          "item": "controlDisabled"
+        },
+        "path": [
+          "Core",
+          "boxShadow",
+          "controlDisabled"
+        ]
+      },
+      "controlFocus": {
+        "value": "rgba(3, 102, 214, 0.3) 0px 0px 0px 0.2em",
+        "type": "boxShadow",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "rgba(3, 102, 214, 0.3) 0px 0px 0px 0.2em",
+          "type": "boxShadow"
+        },
+        "name": "CoreBoxShadowControlFocus",
+        "attributes": {
+          "category": "Core",
+          "type": "boxShadow",
+          "item": "controlFocus"
+        },
+        "path": [
+          "Core",
+          "boxShadow",
+          "controlFocus"
+        ]
+      },
+      "primaryShadow": {
+        "value": "0px 1px 0px rgba(20, 70, 32, 0.1), inset 0px 2px 0px rgba(255, 255, 255, 0.03)",
+        "type": "boxShadow",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "0px 1px 0px rgba(20, 70, 32, 0.1), inset 0px 2px 0px rgba(255, 255, 255, 0.03)",
+          "type": "boxShadow"
+        },
+        "name": "CoreBoxShadowPrimaryShadow",
+        "attributes": {
+          "category": "Core",
+          "type": "boxShadow",
+          "item": "primaryShadow"
+        },
+        "path": [
+          "Core",
+          "boxShadow",
+          "primaryShadow"
+        ]
+      },
+      "activeShadow": {
+        "value": "inset 0px 1px 0px rgba(20, 70, 32, 0.2)",
+        "type": "boxShadow",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "inset 0px 1px 0px rgba(20, 70, 32, 0.2)",
+          "type": "boxShadow"
+        },
+        "name": "CoreBoxShadowActiveShadow",
+        "attributes": {
+          "category": "Core",
+          "type": "boxShadow",
+          "item": "activeShadow"
+        },
+        "path": [
+          "Core",
+          "boxShadow",
+          "activeShadow"
         ]
       }
     }
