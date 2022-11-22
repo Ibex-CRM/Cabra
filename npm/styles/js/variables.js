@@ -1833,6 +1833,27 @@ module.exports = {
           "light"
         ]
       },
+      "normal": {
+        "value": "400",
+        "type": "fontWeights",
+        "filePath": "sd-input/src/from-figma-tokens.json",
+        "isSource": true,
+        "original": {
+          "value": "400",
+          "type": "fontWeights"
+        },
+        "name": "CoreFontWeightNormal",
+        "attributes": {
+          "category": "Core",
+          "type": "fontWeight",
+          "item": "normal"
+        },
+        "path": [
+          "Core",
+          "fontWeight",
+          "normal"
+        ]
+      },
       "semibold": {
         "value": "500",
         "type": "fontWeights",
@@ -1873,27 +1894,6 @@ module.exports = {
           "Core",
           "fontWeight",
           "bold"
-        ]
-      },
-      "normal": {
-        "value": "400",
-        "type": "fontWeights",
-        "filePath": "sd-input/src/from-figma-tokens.json",
-        "isSource": true,
-        "original": {
-          "value": "400",
-          "type": "fontWeights"
-        },
-        "name": "CoreFontWeightNormal",
-        "attributes": {
-          "category": "Core",
-          "type": "fontWeight",
-          "item": "normal"
-        },
-        "path": [
-          "Core",
-          "fontWeight",
-          "normal"
         ]
       }
     },
