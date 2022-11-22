@@ -358,7 +358,7 @@
         "type": "fontWeights"
       }
     },
-    "sizes": {
+    "size": {
       "small": {
         "value": "544px",
         "type": "sizing"
