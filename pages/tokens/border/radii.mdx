@@ -1,0 +1,15 @@
+import * as tokens from '../../../npm/styles/js/variables.js'
+
+# Border Radius
+<hr style={{margin: '0px', filter: 'contrast(600%) invert(0.7)', height: '2px' }}/>
+
+<div style={{display: 'flex', gap: '2vw', flexWrap: 'wrap'}}>
+  {Object.entries(tokens['Core'].radii).map(([radiiName, radii]) => {
+    return (
+      <div style={{display: 'flex', flexDirection: 'column'}}>
+        <p>{radiiName}</p>
+        <div style={{width:  '8vw', minHeight: '8vw', backgroundColor: tokens['Core'].colors.primary.goat.value, borderRadius: radii.value }}/>
+      </div>
+    )
+  })}
+</div>

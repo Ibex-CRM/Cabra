@@ -1,4 +1,7 @@
 {
   "colors": "Colors",
-  "spacing": "Spacing"
+  "spacing": "Spacing",
+  "typography": "Typography",
+  "sizes": "Sizes",
+  "shadows": "Shadows"
 }

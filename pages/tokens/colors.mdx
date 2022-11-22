@@ -7,8 +7,8 @@ import * as tokens from '../../npm/styles/js/variables.js'
 {Object.entries(tokens['Core'].colors).map(([colorRange, value]) => {
   return (
     <div key={`${colorRange}`}>
-      <h4 style={{margin: '20px 0px 0px 0px', color: 'black'}}>{colorRange}</h4>
-      <hr style={{margin: '0px', backgroundColor: 'black', height: '2px' }}/>
+      <h3 style={{margin: '20px 0px 0px 0px', color: 'black'}}>{colorRange}</h3>
+      <hr style={{margin: '0px', filter: 'contrast(600%) invert(0.7)', height: '2px' }}/>
       <div style={{display: 'flex', flexWrap: 'wrap'}}>
         {Object.entries(value).map(([colorName, color]) => {
           return (

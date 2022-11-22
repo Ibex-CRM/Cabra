@@ -1,0 +1,30 @@
+import * as tokens from '../../npm/styles/js/variables.js'
+
+# Sizes
+  <hr style={{margin: '0px', filter: 'contrast(600%) invert(0.7)', height: '2px' }}/>
+
+<div>
+  ### Width
+  <hr style={{margin: '0px', filter: 'contrast(600%) invert(0.7)', height: '2px' }}/>
+  {Object.entries(tokens['Core'].size).map(([sizeName, size]) => {
+    return (
+      <div style={{display: 'flex', flexDirection: 'column'}}>
+        <p style={{}}>{sizeName}</p>
+        <div style={{width:  size.value, minHeight: '100px',margin: '0 0 0 0', backgroundColor: tokens['Core'].colors.primary.goat.value}}/>
+      </div>
+    )
+  })}
+
+  ### Height
+  <hr style={{margin: '0px', filter: 'contrast(600%) invert(0.7)', height: '2px' }}/>
+  <div style={{display: 'flex', gap: '20px', flexWrap: 'wrap'}}>
+   {Object.entries(tokens['Core'].size).map(([sizeName, size]) => {
+    return (
+      <div style={{display: 'flex', flexDirection: 'column'}}>
+        <p style={{}}>{sizeName}</p>
+        <div style={{height:  size.value, width: '120px',margin: '0 0 0 0', backgroundColor: tokens['Core'].colors.primary.goat.value}}/>
+      </div>
+    )
+  })}
+  </div>
+</div>
