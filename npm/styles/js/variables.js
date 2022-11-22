@@ -2668,25 +2668,6 @@ module.exports = {
           "activeShadow"
         ]
       }
-    },
-    "a": {
-      "value": "#8f3c3c",
-      "type": "color",
-      "filePath": "sd-input/src/from-figma-tokens.json",
-      "isSource": true,
-      "original": {
-        "value": "#8f3c3c",
-        "type": "color"
-      },
-      "name": "CoreA",
-      "attributes": {
-        "category": "Core",
-        "type": "a"
-      },
-      "path": [
-        "Core",
-        "a"
-      ]
     }
   },
   "$themes": [],
