@@ -2,19 +2,36 @@ import * as tokens from '../../npm/styles/js/variables.js'
 
 # Colors
 
+<div  style={{minWidth: '50vw'}}>
 {console.log(tokens)}
-{Object.entries(tokens['Core'].colors).map(([key, value]) => {
+{Object.entries(tokens['Core'].colors).map(([colorRange, value]) => {
   return (
-    <div key={`${key}`}>
-      <h4 style={{margin: '20px 0px 0px 0px', color: 'black'}}>{key}</h4>
+    <div key={`${colorRange}`}>
+      <h4 style={{margin: '20px 0px 0px 0px', color: 'black'}}>{colorRange}</h4>
       <hr style={{margin: '0px', backgroundColor: 'black', height: '2px' }}/>
       <div style={{display: 'flex', flexWrap: 'wrap'}}>
-        {Object.entries(value).map(([key, color]) => {
+        {Object.entries(value).map(([colorName, color]) => {
           return (
-            <div key={`${key}`} style={{display: 'flex', flexDirection: 'column', marginRight: '10px'}}>
-              <p style={{margin: '0px'}}>{key}</p>
+            <div key={`${colorName}`} style={{display: 'flex', flexDirection: 'column', marginRight: '10px'}}>
+              <p style={{margin: '0px'}}>{colorName}</p>
               <div
-                style={{backgroundColor: color.value, height: '75px', width: '75px', textAlign: 'center'}}/>
+                style={{backgroundColor: color.value, height: '75px', width: '75px', display: 'flex', alignItems: 'end', justifyContent: 'center'}}
+                onClick={()=> {
+                  function CopyToClipboard(id)
+                    {
+                    var r = document.createRange();
+                    r.selectNode(document.getElementById(id));
+                    window.getSelection().removeAllRanges();
+                    window.getSelection().addRange(r);
+                    document.execCommand('copy');
+                    window.getSelection().removeAllRanges();
+                    }
+                  CopyToClipboard(color.value)
+                  alert("Copied the color: " + colorRange + " " + colorName)
+                }}
+              >
+                <p style={{color: color.value, filter: 'invert(0.8)', fontSize: '12px'}} id={color.value}>{color.value}</p>
+              </div>
             </div>
           )
         })}
@@ -22,3 +39,4 @@ import * as tokens from '../../npm/styles/js/variables.js'
     </div>
   )
 })}
+</div>
