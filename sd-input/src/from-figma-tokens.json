@@ -557,48 +557,11 @@
       }
     }
   },
-  "dark": {
-    "button": {
-      "primary": {
-        "color": {
-          "value": "{colors.global.black}",
-          "type": "color"
-        },
-        "fontSize": {
-          "value": "{fontSize.1}",
-          "type": "fontSizes"
-        },
-        "h": {
-          "padding": {
-            "value": "{space.2}",
-            "type": "spacing"
-          },
-          "v": {
-            "padding": {
-              "value": "{space.1}",
-              "type": "spacing"
-            }
-          }
-        },
-        "borderRadius": {
-          "value": "{radii.2}",
-          "type": "borderRadius"
-        },
-        "bg": {
-          "value": "{colors.global.white}",
-          "type": "color"
-        }
-      }
-    }
-  },
-  "card": {},
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
       "Core",
-      "light",
-      "dark",
-      "card"
+      "light"
     ]
   }
 }
