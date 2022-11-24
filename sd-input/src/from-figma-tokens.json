@@ -534,18 +534,6 @@
           "value": "{fontSize.1}",
           "type": "fontSizes"
         },
-        "h": {
-          "padding": {
-            "value": "{space.2}",
-            "type": "spacing"
-          },
-          "v": {
-            "padding": {
-              "value": "{space.1}",
-              "type": "spacing"
-            }
-          }
-        },
         "borderRadius": {
           "value": "{radii.2}",
           "type": "borderRadius"
@@ -553,6 +541,18 @@
         "bg": {
           "value": "{colors.primary.goat}",
           "type": "color"
+        },
+        "h": {
+          "padding": {
+            "value": "{space.1}",
+            "type": "spacing"
+          }
+        },
+        "v": {
+          "padding": {
+            "value": "{space.2}",
+            "type": "spacing"
+          }
         }
       }
     }
@@ -591,12 +591,14 @@
       }
     }
   },
+  "card": {},
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
       "Core",
       "light",
-      "dark"
+      "dark",
+      "card"
     ]
   }
 }
