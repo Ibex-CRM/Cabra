@@ -523,45 +523,10 @@
       }
     }
   },
-  "light": {
-    "button": {
-      "primary": {
-        "color": {
-          "value": "{colors.global.white}",
-          "type": "color"
-        },
-        "fontSize": {
-          "value": "{fontSize.1}",
-          "type": "fontSizes"
-        },
-        "borderRadius": {
-          "value": "{radii.2}",
-          "type": "borderRadius"
-        },
-        "bg": {
-          "value": "{colors.primary.goat}",
-          "type": "color"
-        },
-        "h": {
-          "padding": {
-            "value": "{space.1}",
-            "type": "spacing"
-          }
-        },
-        "v": {
-          "padding": {
-            "value": "{space.2}",
-            "type": "spacing"
-          }
-        }
-      }
-    }
-  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
-      "Core",
-      "light"
+      "Core"
     ]
   }
 }
